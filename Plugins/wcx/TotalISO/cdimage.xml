@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<!-- Command line options of cdimage -->
+<!-- Is there a space between option switch and argument, for cdimage, no -->
+<Arg-need-space>no</Arg-need-space>
+<!-- Options -->
+<Option name="-l">
+    <!-- Description is used as the help text for the option -->
+    <Description>volume label</Description>
+    <!-- Indicates whether the option needs an argument or not -->
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-t">
+    <Description>time stamp for all files and directories</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-g">
+    <Description>encode GMT time for files rather than local time</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-h">
+    <Description>include hidden files and directories</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-n">
+    <Description>allow long filenames (longer than DOS 8.3 names)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-nt">
+    <Description>allow long filenames, restricted to NT 3.51 compatibility (-nt and -d cannot be used together)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-d">
+    <Description>don&apos;t force lowercase filenames to uppercase</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-c">
+    <Description>use ANSI filenames versus OEM filenames from source</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-j1">
+    <Description>encode Joliet Unicode filenames AND generate DOS-compatible 8.3 filenames in the ISO-9660 name space (can be read by either Joliet systems or conventional ISO-9660 systems, but some of the filenames in the ISO-9660 name space might be changed to comply with DOS 8.3 and/or ISO-9660 naming restrictions)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-j2">
+    <Description>encode Joliet Unicode filenames without standard ISO-9660 names (requires a Joliet operating system to read files from the CD) When using the -j1 or -j2 options, the -n, -nt, and -d options do not apply and cannot be used.</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-js">
+    <Description>non-Joliet &quot;readme.txt&quot; file for images encoded with -j2 option (e.g. -jsc:\location\readme.txt). This file will be visible as the only file in the root directory of the disc on systems that do not support the Joliet format (Windows 3.1, NT 3.x, etc).</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-u1">
+    <Description>encode &quot;UDF-Bridge&quot; media</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-u2">
+    <Description>encode &quot;UDF&quot; file system without a mirror ISO-9660 file system (requires a UDF capable operating system to read the files)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-ur">
+    <Description>non-UDF &quot;readme.txt&quot; file for images encoded with -u2 option (e.g. -usc:\location\readme.txt). This file will be visible as the only file in the root directory of the disc on systems that do not support the UDF format.</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-us">
+    <Description>sparse UDF files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-ue">
+    <Description>embed file data in UDF extent entry</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-uf">
+    <Description>embed UDF FID entries</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-uv">
+    <Description>UDF Video Zone compatibility enforced</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-b">
+    <Description>&quot;El Torito&quot; boot sector file, no spaces</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-p">
+    <Description>Platform ID for the &quot;El Torito&quot; boot catalog</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-e">
+    <Description>Do not set floppy emulation mode in El Torito boot catalog</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-s">
+    <Description>sign image file with digital signature (no spaces, provide RPC server and endpoint name like -sServerName:EndPointName)</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-x">
+    <Description>compute and encode &quot;AutoCRC&quot; values in image</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-o">
+    <Description>optimize storage by encoding duplicate files only once</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-oc">
+    <Description>slower duplicate file detection using binary comparisons rather than MD5 hash values</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-oi">
+    <Description>ignore diamond compression timestamps when comparing files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-os">
+    <Description>show duplicate files while creating image (-o options can be combined like -ocis)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-w">
+    <Description>warning level followed by number (e.g. -w4) 1 report non-ISO or non-Joliet compliant filenames or depth, 2 report non-DOS compliant filenames, 3 report zero-length files, 4 report each file name copied to image</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-y">
+    <Description>test option followed by number (e.g. -y1), used to generate non-standard variations of ISO-9660 for testing purposes: 5 write \i386 directory files first, in reverse sort order, 6 allow directory records to be exactly aligned at ends of sectors, (ISO-9660 6.8.1.1 conformant but breaks MSCDEX) b blocksize 512 bytes rather than 2048 bytes, d suppress warning for non-identical files with same initial 64K l UDF - long ads used in file entries instead of short ads, r UDF - number of ad&apos;s is random, w open source files with write sharing, t load segment in hex for El Torito boot image (e.g. -yt7C0), f use a faster way to generate short names</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-k">
+    <Description>(keep) create image even if fail to open some of the source files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-m">
+    <Description>ignore maximum image size of 681,984,000 bytes</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-a">
+    <Description>allocation summary shows file and directory sizes</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-q">
+    <Description>scan source files only, don&apos;t create an image file</Description>
+    <Need-argument>no</Need-argument>
+</Option>

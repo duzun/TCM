@@ -1,0 +1,11 @@
+¦
+silent=1
+overwrite=2
+path=%windir%
+;          , Target                          , Dir                                                          , Description             , Name 
+Shortcut=D , "tcm.exe"                       ,"..\Application Data\Microsoft\Internet Explorer\Quick Launch", "TotalCmd Launcher"     , "TCM.lnk"
+Shortcut=D , "rebooter.exe"                  ,"..\Application Data\Microsoft\Internet Explorer\Quick Launch", "Reboot of the Computer", "ReBooter!.lnk"
+Shortcut=D , "RegCln.exe"                    ,"..\Application Data\Microsoft\Internet Explorer\Quick Launch", "Registry Cleaner"      , "RegCln!.lnk"
+Shortcut=D , "%windir%\system32\sndvol32.exe","..\Application Data\Microsoft\Internet Explorer\Quick Launch", "Sound Volume Control"  , "VolCtrl.lnk"
+;Shortcut=D, ""                              ,"..\Application Data\Microsoft\Internet Explorer\Quick Launch", ""                      , ".lnk"
+ 

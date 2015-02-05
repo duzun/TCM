@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!-- Selected options of mkisofs -->
+<Arg-need-space>yes</Arg-need-space>
+<Option name="-l">
+    <Need-argument>no</Need-argument>
+    <Argument />
+</Option>
+<Option name="-N">
+    <Need-argument>no</Need-argument>
+    <Argument />
+</Option>
+<Option name="-p">
+    <Need-argument>yes</Need-argument>
+    <Arg-type>text</Arg-type>
+    <Argument>taohe</Argument>
+</Option>
+<Option name="-P">
+    <Need-argument>yes</Need-argument>
+    <Arg-type>text</Arg-type>
+    <Argument>taohe</Argument>
+</Option>
+<Option name="-relaxed-filenames">
+    <Need-argument>no</Need-argument>
+    <Argument />
+</Option>
+<Option name="-no-iso-translate">
+    <Need-argument>no</Need-argument>
+    <Argument />
+</Option>
+<Option name="-allow-lowercase">
+    <Need-argument>no</Need-argument>
+    <Argument />
+</Option>
+<Option name="-allow-multidot">
+    <Need-argument>no</Need-argument>
+    <Argument />
+</Option>
+<Option name="-V">
+    <Need-argument>yes</Need-argument>
+    <Arg-type>text</Arg-type>
+    <Argument>VolumeID</Argument>
+</Option>

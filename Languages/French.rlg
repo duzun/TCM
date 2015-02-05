@@ -1,0 +1,267 @@
+*RegCleaner LanguagePack*
+*RG Version : 4.3*
+
+// Lines starting with '//' are comments, they can be
+// changed and they don't do anything.
+// You can't however change anything that starts with *.
+// - marks are optional and they don't do anything.
+//
+// Please send me the translation you have done to jv16@vtoy.fi
+// And please, do not compress it with any program (like WinZip), just
+// send it as attachment the way it is. That way I can add it to the official
+// package with a one click. Also, do not translate any other file, like
+// the readme, I can´t distribute them.
+// (You don´t need to translate these instructional lines)
+
+*Language* //The name of the language in english
+French
+
+*LangPack Author* //Write your name to the next line
+Jean Balczesak
+
+*The File menu*
+Fichier
+-Sauver liste en .txt
+-Quitter
+
+*The Select menu*
+Sélection
+-Tous
+-Aucun
+-Inverser
+-Marquer sélections
+-Montrer lignes marquées
+
+*The Options menu*
+Options
+-Préférences
+--Couleurs
+---Changer
+---Par défaut
+--Colonnes
+---Redimensionnement automatique
+---Redimensionnement manuel
+--Marquer "ancien"
+---Automatique
+---Manuel
+--Interface graphique
+---Quadrillage
+---Barres plates
+---Panneau de commande
+-Nettoyage du Registre
+--Methode
+---Automatique
+---Manuelle
+--Sauvegardes
+---Ne pas créer de sauvegardes
+---Créer une sauvegarde globale
+--Nettoyeur OLE
+---Normal
+---Extra Puissant
+--Montrer statistiques
+--Liste des Ignorés...
+-Menu désinstallation
+--Montrer tous les logiciels
+--Montrer seulement les logiciels cachés
+--Ne pas montrer les logiciels cachés
+-Langue
+--Choisir la langue
+--Éditer fichier langue actuel
+-RegCleaner
+--Installer raccourcis
+--Désinstaller RegCleaner
+
+*The Tools Menu*
+Outils
+-Outils OCX
+--Voir les entrées OCX
+--Convertir ProgID en CLSID
+--Convertir CLSID en ProgID
+-Nettoyage du Registre
+--Nettoyeur OLE
+--Détecteur de références à des fichiers orphelins 
+--Nettoyeur de Registre automatique
+--Tout faire
+-Voir les fichiers DLL système
+-Voir les fichiers DLL...
+-Voir les fichiers DLL partagés
+-Reconstruire le Registre
+-Réinitialiser la configuration matérielle
+-Modifier le menu Recherche
+-Modifier le menu "Ouvrir avec..."
+-Lancer Regedit
+
+*The Search feature*
+Recherche
+Texte à trouver
+Sélectionner éléments trouvés
+Marquer éléments trouvés
+
+*The Help menu*
+Aide
+-Lisez moi
+-Visiter le site RegCleaner
+-A propos de RegCleaner
+
+*Main Buttons*
+Marquer "ancien"
+Restaurer sauvegarde
+Désinstallation
+Supprimer sélections
+Quitter
+Visualiser avec Notepad
+Combiner
+Renommer
+Nouveau
+
+*Main Tabs*
+Logiciels
+Liste de Démarrage
+Menu Désinstallation
+Types de fichiers
+Nouveau fichier
+Intégration Shell
+Sauvegardes
+
+*Tab Captions* //Important: None of these captions can be identical!
+Logiciels inscrits dans le Registre. Vous devriez supprimer tous les programmes dont vous êtes certain que vous ne les possédez plus sur votre machine
+Ces programmes sont lancés chaque fois que vous démarrez votre ordinateur. Essayez de réduire cette liste autant que possible
+Logiciels présents dans le menu Désinstallation de Windows. Vous pouvez soit les désinstaller, soit les supprimer de cette liste
+Types de fichiers inscrits dans le Registre. Les entrées suivies de la mention "N/A" devraient pouvoir être supprimées sans problème
+Possibilité de créer de nouveaux fichiers par un click droit. Vous pouvez supprimer toutes les entrées inutiles
+Intégration Shell de différents types de fichiers. Supprimez toutes les fonctions dont vous n'avez pas besoin
+DLLs partagées et autres fichiers partagés qui devraient pouvoir être supprimés sans problème (fichiers et entrées seront supprimés en même temps)
+Fichiers DLL système. Vous pouvez supprimer tous les DLLs que vous savez obsolètes 
+Fichiers de sauvegarde
+Entrées OCX trouvées
+Conversion ProgID -> CLSID
+Conversion CLSID -> ProgID
+Ces articles apparaissent dans "Menu Démarrer/Rechercher", vous pouvez supprimer ceux dont vous n'avez pas besoin
+Windows propose ces logiciels lorsque vous essayez d'ouvrir un fichier de type inconnu
+
+*Misc*
+Opération en cours, veuillez patienter...
+Création de liste, veuillez patienter...
+Inconnu
+Packs langues RegCleaner
+Registre
+N/A
+Menu Démarrer
+Tous les fichiers
+Répertoire
+Site web :
+Fichiers textes
+Sélection    //These two lines are united, Eg: Selected 23 of 90
+sur
+Infos supplémentaires
+Si vous choisissez de supprimer ces éléments, les clés suivantes seront supprimées
+Si vous choisissez de supprimer cet élément, la clé suivante sera supprimée
+Vous avez choisi d'enlever tous les éléments. Êtes-vous absolument sûr de savoir ce que vous faites ?
+Entrer CLSID
+Entrer ProgID
+CLSID
+ProgID
+Copier dans le Presse-Papier
+Menu Démarrer (Utilisateur Courrant)
+Reconstruction du Registre
+Spécifiez un mot de passe permettant d'utiliser RegCleaner
+Veuillez écrire votre mot de passe
+
+*Wizzard*
+Créer une nouvelle entrée dans le Registre
+Modifier une entrée du Registre
+Suivant
+Terminer
+Annuler
+
+/ Be sure to include the : marks.
+// Notice: The First line ("These entries...") cannot contain a comma (,)!
+*The Registry Cleanup* 
+Ces entrées sont superflues et peuvent être supprimées
+Valeurs analysées :
+Clés analysées :
+Entrées invalides :
+Entrées ignorées :
+Arborescences :
+Nettoyage du Registre
+Analyse du Registre
+Terminé
+Racine
+Clé
+Nom de l'entrée
+Valeur
+Nettoyage du Registre accompli
+Pause
+Reprendre
+Arrêter
+Fermer
+
+*Columns*
+Auteur
+Logiciel
+Age
+Programmes
+Nom de fichier
+Chargé depuis
+Logiciels
+Extension
+Description
+Extension
+Description
+Extension
+Commande
+Programme
+Nom de fichier
+Chemin
+Type de sauvegarde
+Description
+Date
+Heure
+Dernière modification
+Dernier accès
+Recherche...
+
+*Age*
+Ancien
+Nouveau
+
+*Backups*
+Sauvegarde Restaurée
+Sauvegardes Restaurées
+DLL partagée
+Intégration Shell
+Entrée nettoyée automatiquement
+Entrée nettoyée manuellement
+Nouveau fichier
+Type de fichier
+Élément du menu Désinstallation
+Élément du menu Démarrer
+Entrée Registre
+Entrées nettoyées automatiquement
+Entrées nettoyées manuellement
+Donnez un nouveau nom à la sauvegarde
+Fichier DLL
+Vous ne pouvez pas combiner
+Sauvegardes combinées
+Entrées OCX du Registre
+Article du menu "Rechercher"
+Article du menu "Ouvrir avec..."
+
+*Ignore List* //The last 5 lines are in a one box. The message must be 5 lines long.
+Liste des programmes à ignorer lors du nettoyage du registre
+Que signifie cette liste ?
+Annuler
+OK
+Si, après un Nettoyage du registre, vous remarquez que certaines options d'un 
+programme ne fonctionnent plus, essayez d'ajouter le nom du programme en 
+question à cette liste et RegCleaner ignorera ensuite les entrées correspondantes.
+Je serais très heureux que vous puissiez m'indiquer le nom de tels programmes.
+Cette liste ne tient pas compte des différences entre majuscules et minuscules.
+
+*Error Messages*
+Erreur ! Procédure abandonnée
+Désolé, cette option ne concerne que Win9x et pas les OS de type NT 
+Désolé, cette option ne concerne que Windows 2000
+Veuillez redémarrer votre ordinateur
+Cette option va réinitialiser la configuration matérielle de Windows. Etes-vous vraiment certain de vouloir faire ça ?
+Accès refusé, mot de passe invalide 

@@ -1,0 +1,24 @@
+Version 1.3 (22.02.2003)
+ *: Some incompatibility fixed
+ +: Support of Total Commander 5.51 plugin interface enhancement
+ +: Dialog box with information (press Enter key)
+
+Version 1.2 (3.02.2003)
+ +: Show icons (Total Commander 5.51 or later)
+
+Version 1.1 (13.01.2003)
+ *: Now plugin shows warning message on non NT systems
+ +: Event date became the file date
+ +: You gets warning message if you will try to delete record
+ +: Now you can clear whole Event Log
+
+Version 1.0 (2.01.2003)
+  : Initial public version
+
+Version 1 b - (24.12.2002)
+  : First beta version
+
+Thanks:
+  Andrey Pyasetskiy aka Ergo
+  Puljajev Sergey aka Gorbush
+  Alexey Babenko

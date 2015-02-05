@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!-- Configure file for TotalISO -->
+<Tool>
+    <Name>mkisofs</Name>
+    <Path>mkisofs.exe</Path>
+    <Usage>$(Tool) $(Options) -o $(Output) $(Source)</Usage>
+    <AllOptions>mkisofs.xml</AllOptions>
+    <DefaultOptions>mymkisofs.xml</DefaultOptions>
+</Tool>
+<Tool>
+    <Name>cdimage</Name>
+    <Path>cdimage.exe</Path>
+    <Usage>$(Tool) $(Options) $(Source) $(Output)</Usage>
+    <AllOptions>cdimage.xml</AllOptions>
+    <DefaultOptions>mycdimage.xml</DefaultOptions>
+</Tool>
+<DefaultTool>mkisofs</DefaultTool>
+<Language>
+    <Name>English</Name>
+    <Path />
+</Language>
+<Language>
+    <Name>Chinese (Simplified)</Name>
+    <Path>Lang\zh_cn.dll</Path>
+</Language>
+<DefaultLanguage>English</DefaultLanguage>

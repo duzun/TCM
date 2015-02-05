@@ -1,0 +1,267 @@
+*RegCleaner LanguagePack*
+*RG Version : 4.3*
+
+// Lines starting with '//' are comments, they can be
+// changed and they don't do anything.
+// You can't however change anything that starts with *.
+// - marks are optional and they don't do anything.
+//
+// Please send me the translation you have done to jv16@vtoy.fi
+// And please, do not compress it with any program (like WinZip), just
+// send it as attachment the way it is. That way I can add it to the official
+// package with a one click. Also, do not translate any other file, like
+// the readme, I can´t distribute them.
+// (You don´t need to translate these instructional lines)
+
+*Language* //The name of the language in english
+Romanian
+
+*LangPack Author* //Write your name to the next line
+Paul Enuþã
+
+*The File menu*
+Fiºier
+-Salveazã ca *.txt
+-Închide
+
+*The Select menu*
+Selecteazã
+-Tot
+-Nimic
+-Invers
+-Marcheazã selecþia
+-Subliniazã liniile selectate
+
+*The Options menu*
+Opþiuni
+-Preferinþe
+--Culori
+---Schimbã
+---Implicite
+--Coloane
+---Redimensionare automat
+---Redimensionare manual
+--Marcare ca vechi
+---Automat
+---Manual
+--GUI
+---Grid
+---Barã derulare platã
+---Linie de comandã
+-Curãþare Regiºtrii
+--Metodã
+---Automat
+---Manual
+--Backup
+---Nu crea nici un backup
+---Creeazã numai un backup
+--Curãþare OLE
+---Normal
+---Extra
+--Aratã statistici
+--Ignorã Lista...
+-Meniu Dezinstalãri
+--Aratã toate programele
+--Aratã numai programele ascunse
+--Nu arãta programele ascunse
+-Limbã
+--Selecteazã Limba
+--Editeazã fiºierul limbii curente
+-RegCleaner
+--Instaleazã scurtãturi
+--Dezinstaleazã RegCleaner
+
+*The Tools Menu*
+Unelte
+-Instrumente OCX
+--Aratã intrãrile OCX
+--Converteºte ProgID în CLSID
+--Converteºte CLSID în ProgID
+-Curãþare Regiºtrii
+--Curãþare OLE
+--Cãutare referinþe cãtre fiºiere pierdute
+--Curãþare automatã Regiºtrii
+--Toate
+-Aratã fiºierele DLL de sistem
+-Aratã fiºiere DLL...
+-Aratã fiºierele DLL comune
+-Reface Regiºtrii
+-Reseteazã configuraþia hardware
+-Modificã meniul Cautã
+-Modificã meniul Deschide Cu
+-Ruleazã Regedit
+
+*The Search feature*
+Cautã
+Scrie textul de cãutat
+Subliniazã textul gãsit
+Marcheazã textul gãsit
+
+*The Help menu*
+Ajutor
+-Citeºte-mã
+-Viziteazã Site-ul RegCleaner
+-Despre RegCleaner
+
+*Main Buttons*
+Marcheazã ca vechi
+Restaureazã Backup
+Dezinstaleazã
+ªterge Selecþia
+Închide
+Vizualizeazã în Notepad
+Combinã
+Redenumeºte
+Nou
+
+*Main Tabs*
+Programe
+Listã StartUp
+Meniu Dezinstalare
+Tipuri Fiºiere
+Fiºiere Noi
+Extensii Shell
+Backup-uri
+
+*Tab Captions* //Important: None of these captions can be identical!
+Programe înregistrate în Regiºtrii. Ar trebui sã ºtergi înregistrarea oricãrui program pe care ºtii cã l-ai avut dar nu mai îl ai instalat
+Aceste programe ruleazã de fiecare datã când porneºte computerul. Încearcã sã fie o listã cât mai scurtã
+Programele din meniul Dezinstalare al Windows-ului. Le poþi dezinstala sau le poþi ºterge din listã
+Tipurile de fiºiere înregistrate în Regiºtrii. Înregistrãrile cu valoarea 'N/A' pot fi ºterse fãrã probleme
+Posibilitatea de a crea fiºiere noi cu clic-dreapta. Poþi ºterge orice înregistrare de care nu ai nevoie, sau chiar pe toate
+ExtensiileShell pentru diferite tipuri de fiºiere. Poþi ºterge orice înregistrare de care nu ai nevoie
+DLLs comune ºi alte fiºiere comune care pot fi ºterse în siguranþã (Atât fiºierele cât ºi înregistrãrile vor fi ºterse)
+DLL de sistem gãsite. Poþi ºterge toate DLLs care ºtii cã sunt învechite
+Backup-uri curente
+Înregistrãri OCX gãsite
+ProgID -> CLSID preschimbare
+CLSID -> ProgID preschimbare
+Aceste opþiuni sunt în Start Button -> meniul Search, poþi ºterge pe oricare nu ai nevoie
+Windows sugereazã aceste programe dacã încerci sã deschizi un tip de fiºier necunoscut
+
+*Misc*
+Lucreazã, Vã rog aºteptaþi...
+Creare listã, Vã rog aºteptaþi...
+Necunoscut
+Pachete limbã RegCleaner
+Regiºtri
+N/A
+Meniu Start
+Toate Fiºierele
+Directoare
+SiteWeb:
+Fiºiere Text
+selectate    //Aceste douã linii sunt unite, Eg: Selectate 23 din 90
+din
+Detalii
+Dacã alegi sã ºtergi aceastã înregistrare acestea sunt Key-le care vor fi ºterse
+Dacã alegi sã ºtergi aceastã înregistrare aceastã Key va fi ºtearsã
+Ai ales sã ºtergi toate înregistrãrile. Eºti sigur cã ºtii ce faci?
+Introduce CLSID
+Introduce ProgID
+CLSID
+ProgID
+Copiazã în Clipboard
+Start Menu (Utilizator comun)
+Reconstruieºte Regiºtrii
+Introduce o parolã ce va fi cerutã la pornirea RegCleaner
+Vã rog introduceþi parola
+
+*Wizzard*
+Creeazã o înregistrare nouã în regiºtrii
+Modificã o înregistrare din regiºtrii
+Urmãtoarea
+Sfârºit
+Anuleazã
+
+// Be sure to include the : marks.
+// Notice: The First line ("These entries...") cannot contain a comma (,)!
+*The Registry Cleanup* 
+Aceste înregistrãri au fost gãsite ca fiind nefolosite ºi pot fi ºterse în siguranþã
+Valori analizate:
+Key analizate:
+Înregistrãri false:
+Înregistrãri ignorate:
+Threads:
+Curãþa Regiºtrii
+Analizeazã Regiºtrii
+Gata
+Rãdãcinã
+Key
+Nume înregistrare
+Valoare
+Curãþarea Regiºtrilor completã
+Pauzã
+Reporneºte
+Opreºte
+Închide
+
+*Columns*
+Autor
+Program
+Datã
+Program
+NumeFiºier
+Încãrcat din
+Program
+Extensie
+Descriere
+Extensie
+Descriere
+Extensie
+Comandã
+Program
+NumeFiºier
+Cale
+Tip Backup
+Descriere
+Data
+Ora
+Ultima modificare
+Ultima accesare
+Cautã...
+
+*Age*
+Vechi
+Nou
+
+*Backups*
+Backup Restaurat
+Backup-uri Restaurate
+DLL comune
+ExtensiiShell
+Curãþare automatã a înregistrãrilor
+Curãþare manualã a înregistrãrilor
+Fiºier nou
+Tip fiºier
+Înregistrare meniu dezinstalare
+Înregistrare meniu Startup
+Înregistrare Regiºtrii
+Curãþã automat înregistrãrile
+Curãþã manual înregistrãrile
+Scrie numele pentru backup
+Fiºier DLL
+Nu poþi combina
+Backup-uri combinate
+Înregistrãri OCX
+Înregistrare meniu Cautã
+Înregistrare meniu Deschide cu
+
+*Ignore List* //The last 5 lines are in a one box. The message must be 5 lines long.
+Ignorã lista în Curãþarea Regiºtrilor
+Ce înseamnã aceastã listã?
+Anuleazã
+OK
+Dacã observi cã dupã rularea Curãþare Regiºtrii ai pierdut
+opþiunile unor programe sau altceva, încearcã sã adaugi numele programului
+în aceastã listã ºi RegCleaner îi va ignora toate înregistrãrile.
+Aº fi foarte bucuros dacã mã vei informa despre astfel de programe.
+Lista nu este sensibilã la Majuscule/Minuscule.
+
+*Error Messages*
+Eroare! Procedurã stopatã
+Scuze, aceastã opþiune este numai pentru Win9x, nu pentru OS bazate pe NT
+Scuze, aceastã opþiune este numai pentru Windows 2000
+Vã rog reporniþi calculatorul
+Aceastã opþiune va reseta configuraþia hardware a Windows-ului. Eºti sigur cã vrei sã faci asta?
+Acces refuzat, parola este greºitã

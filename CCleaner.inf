@@ -1,0 +1,78 @@
+[Version]
+   Signature      = "$Windows NT$"
+   Provider       = DUzunSys
+   RebootRequired = 0
+
+
+[DefaultInstall]
+   RunPreSetupCommands  = RunPre 
+   CopyFiles = Copy.files
+   AddReg = Add.Reg
+   RunPostSetupCommands  = RunPost
+   Uninstall = DefaultUnInstall  
+
+[DefaultUnInstall]
+   RunPreSetupCommands = ProcessesToRunBeforeUninstall
+   DelReg = Del.Reg
+   DelFiles = Uninst.Del.files
+   DelDirs  = Uninst.Del.dirs
+   
+[RunPre]
+;    explorer.exe %1%
+
+[RunPost]
+   regsvr32 /s %1%\ccsubtimer.dll
+
+
+[ProcessesToRunBeforeUninstall]
+;    uninst.exe
+
+[DestinationDirs]
+   "DefaultDestDir"   = 10, "AddIns"
+   "Uninst.Del.files" = 1, ""
+   "Uninst.Del.dirs"  = 1, ""
+   
+[Copy.files]
+
+[Uninst.Del.files]
+CCleaner.bat
+Recycle_Open.cmd
+Recycle_Run.cmd
+reg_key.cmd
+CCleaner.exe
+CCleaner64.exe
+CCleaner.inf 
+uninst.exe
+Lang\lang-1048.dll
+Lang\lang-1049.dll
+
+[Uninst.Del.dirs]
+Lang
+.
+
+[Add.Reg]
+; Recicle Bin Menu
+HKLM,"SOFTWARE\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\Shell\Run CCleaner\command","",0x00000000,"%1%\ccleaner.exe /AUTO"
+HKLM,"SOFTWARE\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\Shell\Open CCleaner...\command","",0x00000000,"%1%\ccleaner.exe"
+; Program Setings
+HKCU,"Software\Piriform\CCleaner","(App)Mozilla - Download History",0x00000000,"False"
+HKCU,"Software\Piriform\CCleaner","(App)Mozilla - Cookies",0x00000000,"False"
+HKCU,"Software\Piriform\CCleaner","(App)Google Chrome - Download History",0x00000000,"False"
+HKCU,"Software\Piriform\CCleaner","(App)Google Chrome - Cookies",0x00000000,"False"
+HKCU,"Software\Piriform\CCleaner","(App)Cookies",0x00000000,"False"
+HKCU,"Software\Piriform\CCleaner","(App)Recently Typed URLs",0x00000000,"False"
+HKCU,"Software\Piriform\CCleaner","(App)Last Download Location",0x00000000,"False"
+HKCU,"Software\Piriform\CCleaner","(App)Run (in Start Menu)",0x00000000,"False"
+; Uninstall String
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\CCleaner","DisplayName",0x00000000,"CCleaner (remove only)"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\CCleaner","UninstallString",0x00000000,"rundll32 advpack.dll LaunchINFSection ""%1%\CCleaner.inf"", DefaultUnInstall"
+; Exe Commande\
+HKLM,"SOFTWARE\CCleaner","",0,"%1%\CCleaner.exe"
+
+
+[Del.Reg]
+HKLM,"SOFTWARE\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\Shell\Run CCleaner"
+HKLM,"SOFTWARE\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\Shell\Open CCleaner..."
+HKLM,"SOFTWARE\CCleaner"
+HKCU,"Software\Piriform\CCleaner"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\CCleaner" 

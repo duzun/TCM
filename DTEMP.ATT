@@ -1,0 +1,36 @@
+1,Raw read error rate
+2,Throughput performance
+3,Spin up time
+4,Start/stop count
+5,Reallocated sector count
+6,Read channel margin
+7,Seek error rate
+8,Seek time performance
+9,Power-on time count
+10,Spin up retry count
+11,Recalibration retries
+12,Device power cycle count
+13,Soft read error rate
+191,G-sense error rate
+192,Power-off retract count
+193,Load/unload cycle count
+194,Temperature
+195,Hardware ECC recovered
+196,Reallocation event count
+197,Current pending sector count
+198,Off-line uncorrectable sector count
+199,Ultra ATA CRC error rate
+200,Write error rate
+220,Disk shift
+221,G-sense error rate
+222,Loaded hours
+223,Load retry count
+224,Load friction
+225,Load cycle count
+226,Load-in time
+227,Torque amplification count
+228,Power-off retract count
+230,GMR head amplitude
+231,Temperature
+240,Head flying hours
+250,Read error retry rate

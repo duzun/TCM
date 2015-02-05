@@ -1,0 +1,65 @@
+; Author: bovirus <bovirus@libero.it>
+; Version 0.7.6.5
+
+[lang]
+codepage=1241
+
+0=Plugin 7Zip
+
+900=Memorizzazione
+901=Extra velcoe
+903=Veloce
+905=Normale
+907=Massimo
+909=Ultra
+
+101=solido
+100=Non-solido
+
+102=Nessuno trovato
+
+103=Il file è in uso in un'altra applicazione.
+104=Il fiel compresso può contenere una firma digitale!\nAggiornarlo ditruggerà le informazioni della firma.\nVuoi aggiornare comunque questo file compresso?
+
+1000=Configurazione 7Zip
+2000=Password 7Zip
+
+1001=OK
+1002=Annulla
+1108=Mantieni usando questa password più di una volta
+1109=Cripta l'intestazione file e i nomi file
+1110=Visualizza la password come testo in chiaro
+1111=Crea archivi solidi (un flusso per tutti i file)
+1112=Compressione
+1113=Livello compressione:
+1114=Metodo compressione:
+115=NumPassaggi:
+1115=Dimensioen dizionario:
+1116=Dimensione parola:
+1117=Password
+1118=Usa password:
+1123=Numero thread CPU
+1124=Memoria usata per la compressione:
+1125=Memoria suata per la decompressione:
+1126=Dimensione blocco solido:
+
+1127=Attributi file dove memorizzato durante la compressione
+1128=Ora file
+1129=Creazione
+1130=Accesso
+1131=Modifica
+
+1132=Attributi file
+1133=Sola lettura
+1134=ANscosto
+1135=Sistema
+1136=Archivio
+
+2001=OK
+2002=Annulla
+2101=L'archivio 7Zip è protetto da password
+2102=Insersici la password dell'archivio
+2118=Password:
+
+2026=imposta data e ora set 7z a quelal del file più recente
+2027=rirodina elenco cartella

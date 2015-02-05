@@ -1,0 +1,140 @@
+[Authoring]
+Author=Siarzhuk Zharski, Vladimir Serdyuk
+CopyRight=(c) 2003-2005 TC MultiArc Team
+Version=1.3
+DateEdit=2006-04-10
+License= Freeware
+OtherInfo=
+ContactInfo=vserd@users.sourceforge.net
+
+[Lang]
+Name=English
+HelpFile=MultiArc.hlp
+
+1=OK
+2=Cancel
+3=Warning
+7=Configure MultiArc
+
+; About page
+100=About
+101=This program component use some ideas of Eugene Roshal - Author of FAR and contain code written by Christian Ghisler and Mateusz Brsostek. Many peoples was involved in testing and improving processes.
+
+; addons page
+200=Addons
+201=Type:
+202=No description available
+203=Not set
+204=Path:
+205=Status:
+206=Change ...
+207=Registered for
+208=Not registered
+209=Look for archiver utility
+210=Executable Files(*.exe;*.cmd;*.bat;*.com)|*.exe;*.cmd;*.bat;*.com
+211=Configuration Files(*.ini)|*.ini
+212=%S-parameter handling 
+213=When to ask:
+214=Never
+215=For next command
+216=Always
+217=Exclude LIST calls.
+218=Current TC INI:
+219=Look for TC main configuration file
+220=All Files(*.*)|*.*
+221=You have made some changes in configuration during this session. Abandon those changes?
+222=Finishing MultiArc configuration
+223=Error running shell command
+224=Import add-on
+225=Look for add-on to import
+226=MultiArc Add-on Files(*.addon)|*.addon
+227=Shell command "open" for file type "inifile" failed. Check settings in registry
+228=You have made some changes in configuration. To avoid problems during manual editing of multiarc.ini you have to save this changes. Save changes now?
+229= Going to edit multiarc.ini
+230=Remove type
+231=You are going to remove configuration information for "%1!s!" archive type. Are you sure?
+233=Edit multiarc.ini ...
+
+;Settings page
+300=Settings
+301=Show console:
+302=excluding LIST calls
+303=Minimize to tray
+304=Automatically close/minimize
+305=Delay before opening, seconds
+306=Console height, lines
+307=never
+308=if defined (%C)
+309=always
+
+
+; Language page
+400=Language
+401=Language
+402=Version:
+403=Last Edit
+404=Parameters:
+405=Value:
+406=Language file info
+407=(default)
+408=Authors
+409=Copyright
+410=Licence
+411=Other Info
+412=Contact Info
+
+
+;ArchiveDescription.cpp
+500=Global settings
+501=You set ON \"Batch unpacking\" feature for this type of archives but didn't provide corresponding \"ExtractWithPath=\" command lone. Batch unpacking feature will be set OFF. Please, correct your settings
+502=Restart Total Commander to apply your changes, please.
+503=Saving MultiArc configuration
+
+
+
+
+; Capabilities dialog
+600 =Archiver capabilities
+601 =Extension:
+602 =Can create new archives
+603 =Can modify existing archives
+604 =Archive can contain multiple files
+605 =Detect archive type by content
+606 =Can delete files
+607 =Support text search
+608 =Hide "archive" icon
+609 =Registered
+
+;Wait dialog
+700=multiarc.ini is edited now ...
+701=There is external application editing multiarc.ini file. You have to finish it to be able continue configuring MultiArc.
+702=Terminate editing
+703=All changes in multiarc.ini you have made in external editor will be lost. Terminate anyway?
+704=Terminating editor
+
+;ASK_Type Dialog
+800=MultiArc wanted info!!!
+801=Select the type of archive\n you want to use:
+
+; SParameter Dialog
+901=Enter, please, parameter # %d\nfor running command "%s" :
+; Actions 
+902=Add
+903=Delete
+904=Move
+905=Test
+
+
+;ArchiverManager
+1000=Addon Importing
+1001=Do you want to import add-on for type : [%1!s!]?
+1002=Entry for [%1!s!] type of archive already exists in multiarc.ini.\nDo you want to update it with parameters from this add-on?
+1004=The file "%1!s!" contains no sections.
+1005=Wrong addon-file format!!!
+
+
+;ArchiverEngine.cpp
+1100=Format string for this command is not defined. Current command can't be executed. Check you multiarc.ini settings for this archiver type.
+1102=You specified multiple entries for file/filelist for this command. Only first one will be accepted. To avoid this message remove extra file/filelist entries from format string.
+1103=Executing command ' %1!s! ' returned errorlevel %2!d!. Possibly an error occurred. Archive listing wasn't retrieved.
+1104=Executed command ' %1!s! ' returned errorlevel %2!d!, which is higher than configured as normal for this command. Probably error occurred. Check your configuration, please...

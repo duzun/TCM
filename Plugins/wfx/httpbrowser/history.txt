@@ -1,0 +1,22 @@
+Version 1.0.4
+  [+] Can view the current page source directly with F3 on the go-back line ('...')
+
+Version 1.0.3
+  [+] Can edit URL directly (with SHIFT+F6 on the first line)
+
+Version 1.0.2
+  [.] Bug when deleting bookmarks
+  [.] Bug on some rare configurations on exit
+
+Version 1.0.1
+  [.] Bug with history
+
+Version 1.0 Release Candidate
+  [+] History (to go back to previous pages)
+  [+] Prefix for language files
+  [.] Smaller (/2.5)
+  [.] Faster
+
+Version 1.0 Beta 9
+  [+] Supports websites with login/password
+  [+] Supports download with proxies

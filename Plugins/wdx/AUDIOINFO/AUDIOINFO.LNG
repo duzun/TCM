@@ -1,0 +1,118 @@
+[rus]
+Channels=Êàíàëû
+Duration=Âğåìÿ
+Duration (H/M/S)=Âğåìÿ (×/Ì/Ñ)
+Sample rate=×àñòîòà îöèôğîâêè
+Bit rate=×àñòîòà
+Title=Íàçâàíèå
+Artist=Èñïîëíèòåëü
+Album=Àëüáîì
+Track=Òğåê
+Date=Äàòà
+Genre=Æàíğ
+Comment=Êîììåíòàğèé
+Vendor=Ïîñòàâùèê
+Composer=Êîìïîçèòîğ
+Mono=Ìîíî
+Stereo=Ñòåğåî
+Joint Stereo=Joint Ñòåğåî
+Dual Channel=Dual Channel
+Unknown=Íåèçâåñòíî
+Hz=Ãö
+KHz=ÊÃö
+
+[sk]
+Channels=Kanály
+Duration=Dåka
+Duration (H/M/S)=Dåka (H/M/S)
+Sample rate=Vzorkovacia frekvencia
+Bit rate=Dátovı tok
+Title=Názov
+Artist=Interpret
+Album=Album
+Track=Stopa
+Date=Dátum
+Genre=áner
+Comment=Komentár
+Vendor=Vydavate¾
+Composer=Skladate¾
+Mono=Mono
+Stereo=Stereo
+Joint Stereo=Joint Stereo
+Dual Channel=Dual Channel
+Unknown=?
+Hz=Hz
+KHz=kHz
+;(should be kHz with a small "k" anyways)
+
+[FRA] 
+Channels=Canaux 
+Duration=Duree 
+Duration (H/M/S)=Duree (H/M/S)
+Sample rate=Echantillonnage 
+Bit rate=Bitrate 
+Title=Titre 
+Artist=Artiste 
+Album=Album 
+Track=Piste 
+Date=Date 
+Genre=Genre 
+Comment=Commentaire 
+Vendor=Vendeur 
+Composer=Compositeur 
+Mono=Mono 
+Stereo=Stereo 
+Joint Stereo=Joint Stereo 
+Dual Channel=Dual Channel
+Unknown=?
+Hz=Hz 
+KHz=kHz 
+
+
+[HUN]
+;Hevesi János
+;hevesi_j@freemail.hu
+Channels=Csatornák
+Duration=Idõtartam
+Duration (H/M/S)=Idõ (Óra/Perc/Másodperc)
+Sample rate=Mintavételezési frekvencia
+Bit rate=Bitráta
+Title=Cím
+Artist=Elõadó
+Album=Album
+Track=Sáv
+Date=Év
+Genre=Stílus
+Comment=Megjegyzés
+Vendor=Terjesztõ
+Composer=Szerzõ
+Mono=Monó
+Stereo=Sztereó
+Joint Stereo=Joint sztereó
+Dual Channel=Dual Channel
+Unknown=?
+Hz=Hz
+KHz=kHz
+
+;[Lang]
+;Channels=
+;Duration=
+;Duration (H/M/S)=
+;Sample rate=
+;Bit rate=
+;Title=
+;Artist=
+;Album=
+;Track=
+;Date=
+;Genre=
+;Comment=
+;Vendor=
+;Composer=
+;Mono=
+;Stereo=
+;Joint Stereo=
+;Dual Channel=
+;Unknown=
+;Hz=
+;KHz=

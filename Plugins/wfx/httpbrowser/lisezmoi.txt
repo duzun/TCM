@@ -1,0 +1,49 @@
+Plugin 'HTTP Browser' pour Total Commander
+
+Fabio Chelly,
+fabio@chelly.net
+
+Site Internet:	  http://totalcommander.free.fr/fabio
+Téléchargement:   http://totalcommander.free.fr/fabio/hbrowser.zip
+
+HTTP Browser est un plugin qui vous permet de vous connecter
+à des sites Internet via Total Commander. Il vous permet de voir
+pages, images ou tout autre lien téléchargeable comme des fichiers.
+
+
+______________________________
+
+        INSTALLATION
+______________________________
+
+1. Décompressez le contenu du fichier ZIP dans le dossier de votre
+   choix. Je vous conseille de choisir un sous-dossier du répertoire
+   où est installé Total Commander:
+   Par exemple, le dossier C:\totalcmd\plugins\WFX\HTTPBrowser\
+
+2. Allez dans le menu      : Options > Configuration
+   Selectionnez l'onglet   : Opération
+   Cliquez sur le bouton   : S.F.-Additifs
+   Cliquez sur le bouton   : Ajouter
+   Choisissez le fichier   : httpbrowser.wfx (dans le dossier où a été
+       			     décompressé le ZIP)
+   Cliquez sur OK (3 fois)
+
+3. Le plugin 'HTTP Browser' est désormais installé.
+
+
+______________________________
+
+    COMMENT L'UTILISER
+______________________________
+
+1. Sous Total Commander, allez dans le voisinage réseau
+2. Double cliquez sur 'HTTP Browser'
+3. Cliquez sur 'Se connecter'
+4. Saisissez l'adresse du site sur lequel vous souhaitez naviguez
+   et validez avec ENTREE
+5. Les éléments contenus dans la page apparaissent comme
+   une liste de fichiers:
+   - Vous pouvez suivre un lien en double-cliquant dessus
+   - Vous pouvez télécharger les élements avec F5
+   - Vous pouvez visualiser les images avec F3

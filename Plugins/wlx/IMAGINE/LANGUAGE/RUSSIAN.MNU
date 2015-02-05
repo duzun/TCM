@@ -1,0 +1,147 @@
+; Russian menu translation by Irakly Tchanturia -  Strike (skynet@wanex.ge)
+; Version  0.9.0.0 beta 9  (Mar 11, 2005)
+; Небольшая коррекция до версии 0.9.0.0 beta 10 <http://total.altruistic.ru>
+
+POPUP	"&Файл"
+	MENUITEM	"&Открыть...",40037
+	MENUITEM	"&Открыть повторно",40049
+	MENUITEM	"&Закрыть",40067
+	MENUITEM	SEPARATOR
+	MENUITEM	"&Сохранить",40068
+	MENUITEM	"&Сохранить как...",40002
+	MENUITEM	SEPARATOR
+	MENUITEM	"&Печать...",40076
+	MENUITEM	SEPARATOR
+	MENUITEM	"&Следующий",40031
+	MENUITEM	"&Предыдущий",40032
+	MENUITEM	SEPARATOR
+	MENUITEM	"&Копировать в...",40078
+	MENUITEM	"&Переместить в...",40079
+	MENUITEM	"&Удалить файл",40050
+	MENUITEM	SEPARATOR
+	MENUITEM	"В&ыход",40034
+END_POPUP
+
+POPUP	"&Правка"
+	MENUITEM	"&Копировать",40001
+	MENUITEM	"&Вставить",40051
+        MENUITEM	SEPARATOR
+	MENUITEM	"Очистить б&уфер",40069
+END_POPUP
+
+POPUP	"&Изображение"
+	MENUITEM	"&Информация...",40006
+	MENUITEM	"&Сведения об EXIF ...",40052
+	MENUITEM	SEPARATOR
+	MENUITEM	"&Вращать по вертикали",40007
+	MENUITEM	"&Вращать по горизонтали",40008
+	MENUITEM	SEPARATOR
+	MENUITEM	"&Монохромное изображение",40009
+	MENUITEM	"&Негатив",40010
+	MENUITEM	SEPARATOR
+	MENUITEM	"Изменить глубину &цвета...",40011
+	MENUITEM	"Из&менить размер...",40075
+	MENUITEM	SEPARATOR
+	
+	POPUP	"&Конвертация цвета"
+		MENUITEM	"RGB -> BGR",40012
+		MENUITEM	"RGB -> RBG",40013
+		MENUITEM	"RGB -> GRB",40014
+		MENUITEM	"RGB -> BRG",40015
+		MENUITEM	"RGB -> GBR",40016
+	END_POPUP
+	
+	POPUP	"&Вращать"
+		MENUITEM	"&Влево",40017
+		MENUITEM	"&Вправо",40018
+		MENUITEM	"&На 180 градусов",40019
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Свободно...",40047
+	END_POPUP
+	
+	POPUP	"Установить как обои &Рабочего cтола"
+		MENUITEM	"&По центру",40020
+		MENUITEM	"&Черепицей",40021
+		MENUITEM	"&Растянуть",40022
+	END_POPUP
+	
+	POPUP	"&Фильтр"
+		MENUITEM	"&Обзор...",40040
+	END_POPUP
+	
+	POPUP	"&Палитра"
+		MENUITEM	"&Править...",40023
+		MENUITEM        "&Импорт...",40066
+		MENUITEM	"Э&кспорт...",40039
+	END_POPUP
+	
+	POPUP	"&Прозрачность"
+		MENUITEM	"&Установить...",40063
+		MENUITEM	"&Снять",40064
+	END_POPUP
+END_POPUP
+
+POPUP	"&Анимация"
+	MENUITEM	"&Пауза",40027
+	MENUITEM	"&Следующий кадр",40028
+	MENUITEM	SEPARATOR
+	MENUITEM	"Извлечь текущий &кадр...",40003
+	MENUITEM	"&Извлечь все кадры...",40004
+	MENUITEM	SEPARATOR
+	
+	POPUP	"Э&кспорт"
+		MENUITEM	"&AVI видео...",40005
+	END_POPUP
+END_POPUP
+
+POPUP	"&Вид"
+	POPUP	"&Страница"
+		MENUITEM	"&Предыдущая",40043
+		MENUITEM	"&Следующая",40042
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Первая",40044
+		MENUITEM	"&Последняя",40045
+	END_POPUP
+	
+	MENUITEM	SEPARATOR
+	MENUITEM        "&Панель инструментов",40065
+	MENUITEM	"&Строка состояния",40030
+        MENUITEM        SEPARATOR
+	MENUITEM	"Показывать &номер кадра",40033
+	MENUITEM	"Вмещать только &большие изображения",40038
+	MENUITEM	"П&олный экран",40046
+	MENUITEM	SEPARATOR
+	MENUITEM	"Показывать &прозрачность",40029
+	MENUITEM        "&Aнти-алиасинг", 40080
+	MENUITEM	SEPARATOR
+	MENUITEM	"&Уменьшить",40035
+	MENUITEM	"&Увеличить",40036
+	MENUITEM	"Масштаб 100%",40048
+END_POPUP
+
+POPUP	"&Настройки"
+	MENUITEM	"&Опции...",40025
+END_POPUP
+
+POPUP	"&Инструменты"
+	MENUITEM	"&Миниатюры...",40071
+END_POPUP
+
+POPUP	"&Окно"
+	MENUITEM	"Све&рнуть",40073
+	MENUITEM	"Раз&вернуть",40074
+	MENUITEM	SEPARATOR	
+	MENUITEM	"Всегда поверх остальных о&кон",40070
+	MENUITEM	"&Сохранить позицию",40081
+END_POPUP
+
+MENUITEM	SEPARATOR
+
+POPUP	"&Помощь"
+	MENUITEM	"&Справка",40077
+	MENUITEM	SEPARATOR
+	MENUITEM	"&Поддерживаемые форматы...",40072
+	MENUITEM	"Установленные &плагины...",40041
+	MENUITEM	SEPARATOR
+	MENUITEM	"&О плагине...",40026
+END_POPUP

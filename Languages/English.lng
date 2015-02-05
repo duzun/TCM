@@ -1,0 +1,360 @@
+; If you want to translate ISO Commander on your language, please before involved 
+; with us - possible we already have a translation on your language.
+;
+; WARNING!
+; 1) Lines beginning from the sign ; are comments, and do not require translation
+; 2) Item TranslatorName=YourName\nYour@e-mail must be on English language
+
+[LanguageInfo]
+TranslatorName=English translation by Roland Chanishvili\n<roland@turtleblast.com>
+
+[AboutDlg]
+1=OK
+203=Copyright © 2003 TurtleBlast Software
+200=Purchase
+0=
+204=IDC_VERSION
+209=IDC_REGISTER
+210=IDC_OWNER
+211=IDC_WARNING
+206=support@turtleblast.com
+205=www.TurtleBlast.com
+
+[Strings]
+1=\nThis computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.
+2=File "%s" was not saved, because has occurred an critical error!
+3=File "%s" is exist!\nOwerwrite file?
+4=You sure that want to delete %d selected items?
+5=You sure that want to delete selected item?
+6=You sure that want to rename item?
+7=You sure that want to move item(s)?
+8=Item info
+9=Delete broken image?
+10=File too long (%dkb), possible problems when viewing. Continue?
+11=Version %d.%d (build %03d) %s
+12=You have %d day(s) left
+13=You have %d execution(s) left
+14=Registered to
+15=Unregistered copy
+16=All supported images|*.iso;*.tao;*dao;*.nrg;*.mdf;*.bin;*.img;*.cue;|ISO 9660 (*.iso)|*.iso|Nero - Burning Rom image (*.nrg)|*.nrg|Duplicator image (*.dao;*.tao)|*.dao;*.tao|Media Descriptor (*.mdf)|*.mdf|CDRWin (*.bin)|*.bin|CloneCD (*.cue)|*.cue|All Files (*.*)|*.*||
+17=Name
+18=Size
+19=Type
+20=Modified
+21=%d%% complete
+22=Please select a directory...
+23=All Files (*.*)|*.*||
+24=New Folder%s
+25=%s (free %s from %s)
+26=%s (free %s from %s, 100Mb - trial limitation)
+27=ISO 9660 (*.iso)|*.iso||
+28=New ISO
+29=Preferences
+30=Save image "%s"...
+31=Opening CD...
+32=Creating image...
+33=
+37=
+38=Registration key already exists, overwrite?
+39=Registration info added to registry!\nFor apply changes You must restart application.
+40=Registration info not found!\nTry again!
+41=%s (%s bytes)
+42=%s (%s sectors)
+43=LBA: %d (%06X)
+44=Files %s, Folders %s
+45=Too short file %s, maybe not CD image?
+46=Unsupported DVD Video disk or image %s
+47=Unsupported UDF disk or image %s
+48=Not found ISO9660 descriptor.\nFile %s maybe not ISO image,\nor not supported image.
+49=Unrecognized IC exception (0x%X:0x%X)
+
+50=Sorry, multi-tracks CD not supported in this version.
+51=Sorry, audio CD not supported in this version.
+52=Unrecognized ASPI exception (0x%X:0x%X)
+53=CD not present.\nPlease insert CD.
+54=Device not ready.
+55=File '%s' not exist!
+
+56=OK
+57=Cancel
+58=&Ignore
+59=&Retry
+60=&Abort
+61=&Help
+62=&Yes
+63=&No
+64=&Continue
+65=Don't ask me again
+66=Don't tell me again
+67=Yes to &All
+68=No to A&ll
+
+69=ISO Commander image file
+70=%s time remaining
+71=Extract files
+72=User cancelled the operation!
+73=Unsupported Windows version!\n Press Ok for exit.
+74=Image "%s" is broken!
+
+75=Unsuported AUDIO disk or image %s
+76=Unsuported MULTITRACK [%d] disk or image %s
+77= %s image info
+
+;128=ISO Commander\nUntitled.ISO\nISO Commander\nISO 9660 (*.iso)\n.iso\nISO.Commander\nISO Commander
+129=Not enough free space!\nNeed %dKb more
+130=Sorry, this image can't be save.\nTrial limitation 100Mb.
+131=Folder
+132=Parent dir
+;%d - day
+;%m - month
+;%Y - year (4 digit)
+;%y - year (2 digit)
+;%H - hour
+;%M - minutes
+;%S - second
+; Set data\time format in item 133 according to your national preferences
+133=%d.%m.%Y %H:%M
+134=Boot
+135=ASPI layer not installed! Some functions will be inaccessible.\nCheck help for solve a problem.
+136=You sure that want to canceled operation?
+
+137=Also use the ISO9660 text for Joliet
+138=Make floppy image
+139=Floppy disk read error!
+140=Insert floppy disk in drive A: and press Ok
+141=Boot image already exists, overwrite?
+
+32768=Size upper limit an image\nImage size
+32769=Show information about image file\nISO info
+32770=Create image from CD\nCreate image
+32771=Program preferences\nPreferences
+32772=Add files\nAdd files
+32773=Add directory\nAdd directory
+32774=Create new folder in ISO image\nCreate folder
+32775=Delete item(s) or folder(s)\nDelete
+32776=Open CD as image\nOpen CD
+32777=Show information about selected item\nFile/folder info
+32778=View selected file\nView
+32779=Extarct file(s) or/and folder(s)\nExtract
+32780=Run selected file\nRun
+32781=Rename selected item\nRename item
+32783=TurtleBlast on the Web\nTurtleBlast on the Web
+32785=Free image space\nFree image space
+32787=Send e-mail to support service\nSend e-mail to support service
+32788=Purchase & Register ISO Commander\nPurchase & Register ISO Commander
+
+57344=ISO Commander
+57345=For Help, press F1
+57346=Select an object on which to get Help
+
+57600=Create a new image\nNew image
+57601=Open an existing image\nOpen image
+57603=Save image\nSave image
+57604=Save image with a new name\nSave As
+
+57616=Open this document
+57617=Open this document
+57618=Open this document
+57619=Open this document
+57620=Open this document
+
+57664=Display program information, version number and copyright\nAbout
+57665=Quit the application; prompts to save documents\nExit
+57667=List Help topics\nHelp Topics
+
+59136=EXT
+59137=CAP
+59138=NUM
+59139=SCRL
+59140=OVR
+59141=REC
+
+59392=Show or hide the toolbar\nToggle ToolBar
+59393=Show or hide the status bar\nToggle StatusBar
+
+32793=Set boot image\nSet boot image
+32794=Save boot image\nSave boot image
+32795=Delete boot image\nDelete boot image
+32792=Make boot image from floppy\nMake boot image from floppy
+
+80=Reading image %s
+81=Preparing image...
+84=Search result: %d files, %d folders
+85=Nothing found. Try to change conditions of searching.
+32799=Customize toolbar\nCustomize
+32801=Generate reports\nReports
+32802=Find in image\nFind
+61699=Save changes to %s?
+
+[FileInfoPage]
+0=Item info
+249=Description:
+250=Location:
+251=Size:
+252=Size on disk:
+253=Modified:
+254=Attributes:
+218=Hidden
+255=Ñontain:
+257=Items size:
+237=•••
+
+[GeneralPage]
+0=General
+221=Allow only one copy of program at a time
+226=SuperLong (up to 110 char) file names
+227=Try open first track in multi-track image
+228=Open image after create from CD
+
+[InterfacePage]
+0=Interface
+219=Autocollapse tree
+220=Show folders size
+225=XP-Style menu
+267=Interface language
+262=
+265=Translator Info
+221=Show grid lines
+222=Show column select (Windows XP and above)
+
+[ConfirmPage]
+0=Confirmation
+232=Confirm on delete item(s)
+233=Confirm on rename item(s)
+223=Confirm on drag'n'drop item(s)
+230=Confirm if viewed file more of 64Kb
+
+[ActionPage]
+0=Action
+266=Double-click command
+235=File or folder info
+227=View selected item
+228=Extract file(s) or/and folder(s)
+231=Run selected item
+
+[MainSheet]
+0=Preferences
+
+[MainFrame.menu]
+57600=&New	Ctrl+N
+57601=&Open image...	Ctrl+O
+32776=Open C&D...	Ctrl+D
+57603=&Save	Ctrl+S
+57604=Save &As...	Ctrl+Alt+S
+32771=Se&ttings...	Ctrl+F7
+57616=Recent File
+57665=E&xit
+0=&File
+32773=&Add directory...	Alt+D
+32772=Add files...	Alt+F
+32774=&Create folder
+32770=Create &image...	Ctrl+I
+32781=Rena&me	F2
+32778=&View	Alt+V
+32779=&Extract...	Alt+E
+32780=&Run	Alt+R
+32775=&Delete	Del
+1=&Action
+32793=Load boot image
+32794=Save boot image
+32795=Delete boot image
+32792=Make boot image from floppy
+2=&Boot
+32777=&Item info	Alt+T
+32769=I&SO info	Alt+I
+3=&Info
+59392=&Toolbar
+59393=&Status Bar
+4=&View
+57667=&Help Topics
+32783=TurtleBlast on the &Web
+32787=Support service e-mail
+32788=Purchase && Register
+57664=&About ISO Commander...
+5=&Help
+57617=
+57618=
+57619=
+57620=
+32802=Find item in image	F7
+32801=Generate report	Ctrl+R
+32799=Customize toolbar
+
+[RegDlg]
+0=Purchase & Register
+1=OK
+237=OnLine purchase ISO Commander from RegSoft.com (USA)
+238=OnLine purchase ISO Commander from ShareIt!
+239=Paste registration key
+268=To register 'ISO Commander', right-click on registration letter, select 'Select All' command,  then  right-click  on  this  letter  again and select 'Copy' command.  After  that, click  'Paste registration key' button and click 'OK'.
+
+[SelectCD]
+0=Select CD...
+1=OK
+2=Cancel
+
+[AssociatesPage]
+0=Associates
+238=Select all
+269=
+239=Select none
+
+[ISO9660InfoPage]
+0=ISO 9660
+290=Volume Label
+291=System Identifier
+292=Volume Set
+293=Publisher
+294=Data Preparer
+295=Application
+296=Copyright File
+297=Abstract File
+298=Bibliographic File
+316=Volume creation
+317=Volume modification
+318=Volume effective
+319=Volume expiration
+330=Also use the ISO9660 text for Joliet
+
+[JolietInfoPage]
+0=Joliet
+299=Volume Label
+300=System Identifier
+301=Volume Set
+302=Publisher
+303=Data Preparer
+304=Application
+305=Copyright File
+306=Abstract File
+307=Bibliographic File
+316=Volume creation
+317=Volume modification
+318=Volume effective
+319=Volume expiration
+
+[OptimizePage]
+0=Optimization
+220=Do not create ISO9660 filesystem
+272=This Disk was created with Joliet Unicode filenames without standard ISO9660 names. Required a Joliet operating system to read files from the CD.
+222="readme.txt" for images without ISO9660 filesystem
+320=Encoding duplicate files only once
+322=
+323=Display imagesize with provision for duplicates (slow!)
+324=
+
+[BootInfoPage]
+0=Boot
+325=Kind of emulation
+326=Load segment of sectors
+328=Number of loaded sectors
+
+[FindDialog]
+0=Find
+2=Cancel
+332=Search for:
+330=Case sensitive
+237=Start search
+334=Search from root
+335=Example of search pattern: *.exe or s???p.exe or s???p.* or setup.exe
+337=RegEx
+338=Skip folders

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!-- Command line options of cdimage -->
+<!-- Is there a space between option switch and argument, for cdimage, no -->
+<Arg-need-space>no</Arg-need-space>
+<!-- Options -->
+<Option name="-l">
+    <!-- Description is used as the help text for the option -->
+    <Description>volume label</Description>
+    <!-- Indicates whether the option needs an argument or not -->
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-t">
+    <Description>time stamp for all files and directories</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+

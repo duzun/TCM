@@ -1,0 +1,68 @@
+# Enforce LF line endings (notepad++ can handle it)
+* text eol=crlf
+
+# Text file extensions
+*.js   text  eol=crlf
+*.json text  eol=crlf
+*.inf  text  eol=crlf
+*.ini  text  eol=crlf
+*.bar  text  eol=crlf
+*.att  text  eol=crlf
+*.cfg  text  eol=crlf
+*.cmd  text  eol=crlf
+*.bat  text  eol=crlf
+*.inc  text  eol=crlf
+*.dat  text
+*.cmt  text
+*.txt  text
+*.html text
+*.htm  text
+*.xml  text
+*.mnu  text
+*.m3u  text
+*.reg  text
+*.key  text
+*.msg  text
+*.wul  text
+*.lng  text
+*.rlg  text
+
+
+# Binary file extensions
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.psd binary
+*.icl binary
+
+*.pdf binary
+*.doc binary
+*.chm binary
+*.hlp binary
+
+*.zip binary
+*.gz binary
+
+*.exe binary
+*.com binary
+*.scr binary
+*.dll binary
+*.sys binary
+*.sfx binary
+*.exz binary
+*.vxd binary
+*.ocx binary
+*.gid binary
+
+*.wcx binary
+*.wdx binary
+*.wfx binary
+*.wlx binary
+*.wcx64 binary
+*.wdx64 binary
+*.wfx64 binary
+*.wlx64 binary
+
+*.avsz binary
+

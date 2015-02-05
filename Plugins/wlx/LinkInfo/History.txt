@@ -1,0 +1,96 @@
+LinkInfo 1.51
+  This is a combined project consisting of 2 parts:
+1. LinkEditor 1.51 - Program for modifying LNK-files.
+2. LinkInfo   1.51 - Lister-plugin for viewing and editing them from TC
+
+Author:Konstantin Vlasov, 2004
+Homepage: http://www.flint-inc.ru
+Mirror:   http://flint.50free.org
+E-mail: flint_inc@pochta.ru
+
+
+    /==========================\
+    |     Version history:     |
+    \==========================/
+
+Version 1.51:
+  1. One very annoying bug was fixed: on some computers closing Lister window resulted
+     in closing Total Commander itself.
+
+Version 1.5:
+  1. The icon in Lister window is now showed always, for absolutely all link files.
+  2. In Link Editor dialog when starting Choose Icon dialog, the defualt icon is the
+     same icon that is showed (not always, but in most cases). Due to Win9x restrictions,
+     in these systems this possibility works more seldom.
+  3. Fixed bug with saving links on system objects.
+  4. Now links on system objects has correct Target field.
+
+Version 1.42:
+  1. The icon now is drawn on the same background as main RichEdit background (before it was drawn
+     always on white).
+  2. Added possibility for calling commands "Save", "Save As...", "Close" on dialog from keyboard
+     (letters for calling are underlined, as in menus).
+  3. The icon of link on folder is now showed.
+
+Version 1.41:
+  1. Fixed bug that appears on al systems except WinXP and Win2003.
+
+Version 1.4:
+  1. Link Editor dialog can now change its size, the size and position being saved and restored
+     on following starts (if the dialog is calles from the Lister, then it restores only size,
+     as the position is set accordingly to the context menu position).
+  2. The icon is now showed not only in the Lister windowm but also in the dialog.
+  3. To the icon number field in the dialog spin arrown Up/Down are added.
+  4. Now the icon in Lister window is not separate picture drawn over the text, but a normal
+     OLE-object of RichEdit control - it can be copied to the clipboard, drag&dropped by mouse etc.
+  5. Fixed bug with viewing several files simultaneously.
+  6. The text of hotkey showed in Lister is now correct for all keys (before it was correct only for
+     letters and digits).
+  7. And many many minor bug fixes...
+
+Version 1.31:
+  1. Now the file icon is shown in the Lister window. This picture is not a part of the
+     document shown, so it is cannot be selected, copied and so on. All it will appear
+     in the future, but only in the case it is really necessary for somebody.
+  2. The plugin/program became more compatible with Win9x. Earlier the Choose Icon dialog
+     worked improperly - incorrect start path, questions instead of the path selected...
+
+Version 1.3:
+  1. At last the malicious bug was fixed that I tried to catch for very long time - on
+     some computers plugin didn't work. Now, I hope, it will be OK.
+  2. On pressing ContextMenu key menu appears in the center of the Lister window.
+  3. Editor dialog now appears on the place where mouse was when calling the context menu
+     (if it was called from mouse, not from keyboard).
+  4. Dialog of the folder choosing now contains the starting path with the folder specified
+     in the link information (before it was always "My computer").
+  5. Corrected sizes of text fields on the Choose Folder dialog.
+  6. All dialogs that appear on pressing "..." button now have start paths specified in
+     the appropriate input boxes.
+
+Version 1.21:
+  1. Fixed program crash when pressing "Choose Icon" button.
+  2. Fixed icon number (it can now be seen as negative).
+
+Version 1.2:
+  1. In this version the integration between 2 parts is complete. Now one can right-click
+     in Lister-window and choose menu item "Edit..." to edit the LNK-file being viewed.
+     After the saving the dialog window os closed and Lister window updated automatically.
+  2. In dialogs of editing the "Choose Icon" button is now active.
+  3. WinXP manifest added for better look in Windows XP.
+  4. Project parts are renamed.
+
+Version 1.1:
+  The next version. In this version a possibility of editing link files is added. Now when
+  someone opens LNK-file, all dialog fieald are filled in with the data from the link opened.
+
+Version 1.0:
+  The first version of program. It allows to create new link-files with the user-specified information.
+  One can specify:
+  1. Target file name
+  2. Command-line arguments
+  3. Working folder of the program
+  4. Comments for this link
+  5. Hotkey
+  6. The file that contains the icon for this link and the icon number in this file
+  7. Window size for the program
+  The first version of plugin allows to view all this information.

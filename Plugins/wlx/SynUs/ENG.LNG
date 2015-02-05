@@ -1,0 +1,88 @@
+[LANG]
+DESC=ENGLISH
+
+
+101=Print
+102=Copy as text
+103=Select all
+104=Text only
+105=Settings
+106=WordWrap
+107=Add
+108=About
+109=ANSI (Windows charset)
+110=ASCII (DOS charset)
+111=Save
+112=Background
+113=Bookmarks
+114=Clear all Bookmarks
+115=Autosave Bookmarks
+116=Export
+117=Export to 
+118=Export selection to 
+119=Open file in editor
+120=Export to file
+121=Export to clipboard
+122=Unicode
+123=Show cursor
+
+
+
+201=Save settings
+202=Attributes
+203=Support files
+204=Background
+205=Foreground
+206=Cancel
+207=Color
+208=View
+209=Fields
+210=Left:
+211=Right:
+212=Add
+213=Del
+214=Default
+215=Font
+216=Change
+217=About
+218=Close
+219=Apply
+220=Extensions
+221=Tab position
+222=Interface language
+223=Save changes?
+224=TC toolbar
+225=SynUs settings button
+226=Font style
+227=Find image
+228=Numbers
+229=Use zeros
+230=Text editor
+
+7000=Gutter
+7001=Header
+7002=Footer
+7003=Mirror margins
+7004=Line numbering
+7005=Print line numbers in margin
+7006=Print syntax formatting
+7007=Print using syntax colors
+7008=Wrap lines
+7009=Text left indent
+7010=Text bottom indent
+7011=Text rigt indent
+7012=Header options
+7013=Header > Line
+7014=Header > Shadow
+7015=Header > Box
+7016=Header > Mirror
+7017=Line color
+7018=Shadow color
+7019=Footer > Line
+7020=Footer > Mirror
+7021=Line color
+7022=Total Commander toolbar
+7023=SynUs settings button
+
+
+

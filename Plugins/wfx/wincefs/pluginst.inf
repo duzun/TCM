@@ -1,0 +1,6 @@
+[plugininstall]
+description=wincefs - plugin to access Windows CE and PocketPC devices v 1.0
+type=wfx
+file=wincefs.wfx
+defaultdir=wincefs
+

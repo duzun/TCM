@@ -1,0 +1,8 @@
+C:\Windows
+C:\Temp
+$RECYCLE.BIN
+Recycler
+Recycled
+MSOCache
+System Volume Information
+desktop.ini

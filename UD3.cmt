@@ -1,0 +1,6 @@
+;Copyright (C) DUzunSys 2006
+
+Path=%windir%
+Setup=SetUD3.bat
+Silent=1
+Overwrite=1

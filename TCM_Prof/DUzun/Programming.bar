@@ -1,0 +1,22 @@
+[Buttonbar]
+Buttoncount=5
+button1=wcmicons.dll,15
+cmd1=%COMMANDER_INI%\..\Default.bar
+button2=d:\DUzunSys\Compilers\BP\BIN\*.ico
+cmd2=bp
+param2=%P%N
+path2=d:\DUzunSys\Compilers\BP\BIN
+menu2=Borland Pascal
+button3=D:\DUzunSys\Compilers\BC\OWL\EXAMPLES\CURSOR\CURSOR.ICO
+cmd3=bc
+param3=%P%N
+path3=d:\DUzunSys\Compilers\Bc\BIN
+menu3=Borland C++
+button4=d:\DUzunSys\Compilers\TMTPascalLight\BIN\idew32.exe
+cmd4=d:\DUzunSys\Compilers\TMTPascalLight\BIN\idew32.exe
+param4=%P%N
+menu4=TMT Pascal Light
+button5=pspad
+cmd5=pspad
+param5=%P%N
+menu5=PSPad

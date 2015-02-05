@@ -1,0 +1,231 @@
+*** History ***
+
+Version 0.9.0.0 beta 10 'Apr 10 2005
+- File format added:
+    XCF (GIMP Bitmap) (Requires plugin)
+- Transparent image scroll bug fixed.
+- Some EXIF error fixed.
+- Thumbnail background color problem fixed.
+- 32bit clipboard paste bug fixed.
+
+Version 0.9.0.0 beta 9 'Mar 10 2005
+- File format added:
+    PSP (Paint Shop Pro Image)
+    XBM (X10/X11 Bitmap) (Requires plugin)
+    XPM (X11 Pixmap) (Requires plugin)
+    ANM (DeluxePaint Animation) (Requires plugin)
+- Zoom/Fit feature was renewed.
+- More internal optimizing.
+- Resize resample filter added.
+- Rotate according to EXIF option added.
+- Fixed the flickering screen.
+- Dialog font configure available.
+- Thumbnail Tooltip added.
+- Bug fixed when directory has more than 1024 image files.
+- Rotation bug fixed.
+- Shortcut dialog bug fixed.
+- Plugin SDK updated. (Version 0.1.0.2)
+
+Version 0.9.0.0 beta 8 'Feb 10 2005
+- File format added:
+    DDS (DirectDraw Surface) (Requires plugin)
+- Some internal optimizing.
+- Toolbar color was renewed.
+- Windows 9x transparent pixel color problem fixed.
+- Thumbnail treeview icon bug fixed.
+- Shell extension crash bug fixed.
+- CMYK TIFF is now showed correctly.
+- Plugin SDK available. (Version 0.1.0.0)
+- Preview color quality enhancement.
+- Application icons were changed.
+
+Version 0.9.0.0 beta 7 'Jan 22 2005
+- Supports TC 6.5 thumbnail mode.
+
+Version 0.9.0.0 beta 6 'Jan 08 2005
+- Anti aliasing option added.
+
+Version 0.9.0.0 beta 5 'Dec 27 2004
+- Shell extension context menu available.
+  (You can view the image briefly with context menu in Explorer.)
+- Toolbar data is now in Imagine.ini
+- Shortcut data is now in Imagine.ini
+
+Version 0.9.0.0 beta 4 'Dec 10 2004
+- Thumbnail window was decorated.
+- The main routine file was changed from Imagine.wlx to Imagine.DLL
+- Some file operations added. (Copy/Move)
+- Resize available (Primitive yet)
+- Print available (Primitive yet)
+- Help available (Primitive yet)
+
+Version 0.9.0.0 beta 3 'Aug 28 2004
+- Thumbnail window available.
+- 'Supported file formats' menu added.
+- Packer Plugin for Total Commander now can read Imagine.ini.
+- Some window menu added.
+
+Version 0.9.0.0 beta 2 'Aug 14 2004
+- Packer Plugin for Total Commander available. (Imagine.wcx)
+- Some translation added.
+- MRUD available.
+- Some window option added.
+  (Center window, Fit to image)
+
+Version 0.9.0.0 beta 1 'Aug 06 2004
+- Stand-alone executable can be executed without arguments.
+- File extension registering dialog was reformed. (Now in Preference dialog)
+- Save, Close, Clear clipboard command added.
+- File format added:
+    PIC;CEL (Autodesk Animator PIC)
+
+Version 0.8.4.0 'Jul 26 2004
+- Toolbar added. (customizable)
+- Some delete bug fixed.
+- Palette import added.
+
+Version 0.8.4.0 beta 3 'Jul 14 2004
+- Stand-alone executable available.
+- Transparency set/clear available.
+- File format added:
+    CDR;CDT;PAT;CMX (CorelDRAW Drawing)
+- PNG interlaced saving added.
+- TGA 32bit alpha value supported.
+- Some JPEG error fixed.
+
+Version 0.8.4.0 beta 2 'Mar 18 2004
+- Keyboard shortcuts configure available.
+- Some bugs of Multiple TIFF were fixed.
+- More texts can be translated.
+- Comments in language file(menu,text) available.
+- Multiple Icon/Cursor saving added.
+- Show zoom factor when image is fitted.
+- 16bit color depth conversion available.
+
+Version 0.8.4.0 beta 1 'Feb 26 2004
+- 'Display while loading' option added.
+- Multilingual support.
+- Image information enhancement.
+- File list sorting support.
+- 'Delete(Direct/Recycle Bin)' menu added.
+- 'Reopen' menu added.
+- 'Paste' menu added.
+- Fixed: 'Preference' shortcut was changed to 'Alt+Enter' again.
+- Support saving Progressive JPEG.
+
+Version 0.8.0.0 'Feb 07 2004
+- Effect filter supported (Requires plugin)
+- 'Full screen' menu added.
+- Multiple page image(TIF,ICO,DCX) supported.
+  (Browse the pages with Shift+PgUp/PgDown(Home/End).)
+- EXIF(JPEG) information available.
+- Information dialog was reformed.
+- Most common TIFF compression method added.
+  (RAW,Packbits,CCITT,LZW,ZIP,JPEG,ThunderScan)
+- TIFF saving added.
+- 'Rotate free' menu added.
+- 'Installed plugins' menu added.
+- 'Ask to overwrite file' option added.
+- 'Don't notify end/begin of the directory' option added.
+- Zoom out smaller than original size of the image.
+- Zoom in/Zoom out with mouse wheel supported. (with Shift key)
+- Refresh speed enhancement when image is zoomed in.
+- Horizontal scroll with mouse wheel supported. (with Ctrl key)
+- Some palette file type added.
+- 'Palette export' menu added.
+- File format added:
+    DCX (Zsoft Multi-Page Paintbrush)
+    WBMP;WAP;WBM (Wireless Bitmap)
+- Fixed: Some PCX error fixed.
+- Fixed: Some RLE error fixed.
+
+Version 0.7.3.0 'Jan 01 2004
+- An image has alpha value (ex. PNG 32bit) now showed correctly.
+- Drag&Drop supported.
+- Zoom in/Zoom out supported.
+- 'Open' menu added.
+- 'Fit only big images' menu re-added.
+- Fixed: 32bit BMP that has color mask isn't loaded.
+- Fixed: Properties dialog is not opened in Windows NT
+
+Version 0.7.0.1 'Nov 24 2003
+- Windows XP runtime error fixed.
+
+Version 0.7.0.0 'Nov 22 2003
+- Sorry for the late update. (I worked hard with my image library. :( )
+- Now with TC 6.0, BMP,ICO files can be viewed with Imagine plugin.
+- File format added:
+    JBG;JBIG (JBIG Bi-level Image)
+    ICO (Windows Icon)
+    CUR (Windows Cursor)
+    ANI (Windows Animated Cursor)
+    CLP (Windows Clipboard)
+    RLE (Utah RLE)
+- Flic saving added.
+- Animation file saving is now 'Save as'.
+  (Some export menus(except for AVI) were deleted.)
+- Plugin system added.
+  (If you don't need the file type, you can delete the plugin file.
+   Plugin files are loaded at the first time when Imagine is loaded,
+   So, don't care about the speed when you use plugins :) )
+- 'Center Image' option added.
+- Menu was reformed.
+- Mouse left button to get pixel color information.
+- Mouse right button to scroll.
+- Next/Previous image (Space/Backspace).
+- Ini file location was changed. (Same directory as Imagine.wlx)
+- Fixed: Keyboard shortcuts doesn't work in Win9x.
+
+Version 0.6.0.0 'Sep 06 2003
+- File format added:
+    RAS (Sun Raster Image)
+    SGI;RGB;BW (Silicon Graphics Image)
+- 'Change color depth' added.
+- Auto color conversion when saving file.
+  (Now you can save JPG to GIF with auto color conversion.)
+- 'Set as wallpaper' added.
+- Edit palette keyboard access added. (Use arrow keys and press 'E' or 'Alt+E')
+- 'Preferences' added. (Background color, Transparent background color/pattern)
+- Small scroll bug fixed.
+
+Version 0.5.0.0 'Aug 10 2003
+- Status bar added.
+- Save option available.
+- Show progress(in save file/modify image) available.
+- Some shortcuts added.
+
+Version 0.4.9.0 'Aug 06 2003
+- PNG transparency added.
+- File format added:
+    PSP (Paint Shop Pro Image)
+    PBM (Portable Bitmap)
+    PGM (Portable Graymap)
+    PPM (Portable Pixelmap)
+
+Version 0.4.8.0 'Aug 02 2003
+- PNG saving added.
+
+Version 0.4.7.0 'Aug 01 2003
+- 'Show transparency' added.
+- JPEG2000 Wavelet file format added.
+- Kodak PhotoCD file format added.
+
+Version 0.4.1.1 'Jul 28 2003
+- Some PNGs error fixed.
+
+Version 0.4.1.0 'Jul 28 2003
+- 'Edit palette' added.
+
+Version 0.4.0.0 'Jul 24 2003
+- 'Fit only big images' option added.
+- 'Vertical/Horizontal flip' added.
+- 'Grayscale, Negative' added.
+- 'Swap colors' added.
+- 'Rotate' added.
+
+Version 0.3.7.0 'Jul 22 2003
+- Some GIFs error fixed.
+- Scroll error fixed.
+
+Version 0.3.0.0 'Jul 16 2003
+- First release.

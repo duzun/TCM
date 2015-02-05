@@ -1,0 +1,14 @@
+C:	Extragere din Cabinet - Microsoft in %Temp%
+	Extract /L %Temp% !.! 
+Z:	Extragere Zip  in %Temp%
+	pkunzip -e -o -d -Jahrs !.! %Temp%
+B:	Extragere BSA in %Temp%
+	bsa x -r !.! %Temp%/
+A:	Extragere ARJ aici
+	arj x -r -y !.!
+S:	Arhivare BSA in BSA.bsn
+	bsa n -r bsa !.!
+R:	Arhivare ARJ.arj
+	arj a -r ARJ.arj !.!
+M:	Meniul principal...
+	VC.mnu

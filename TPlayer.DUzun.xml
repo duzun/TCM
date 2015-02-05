@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<APPLICATION ShowHints="1" MultiInstance="0" StayOnTop="0" UseTray="0" Language="Russian" Skin="" id="Total Media Player" ver="3.0 Beta 41 (build 3739)">
+ <OSD ShowInfo="1"/>
+ <PlayList MediaDir="" ReportDir="C:\" Index="0"/>
+ <WINLIRC Enabled="0" Server="127.0.0.1:8765" AutoLoad="0" RepeatDelay="0">
+  <KEY id="tv/av" link="Application.OpenPlayPause"/>
+  <KEY id="Power" link="Application.Exit"/>
+  <KEY id="mute" link="Audio.Mute"/>
+  <KEY id="v+" link="Audio.VolumeUp"/>
+  <KEY id="v-" link="Audio.VolumeDown"/>
+  <KEY id="-/--" link="Video.FullScreen"/>
+  <KEY id="f" link="Video.BrightnessUp"/>
+  <KEY id="n" link="Video.BrightnessDown"/>
+  <KEY id="ch+" link="Playlist.Load(Prev)"/>
+  <KEY id="ch-" link="Playlist.Load(Next)"/>
+  <KEY id="1" link="Keyboard.Press(Esc)"/>
+  <KEY id="2" link="Keyboard.Press(Up)"/>
+  <KEY id="3" link="Keyboard.Press(Enter)"/>
+  <KEY id="4" link="Keyboard.Press(Left)"/>
+  <KEY id="5" link="Keyboard.Press(Down)"/>
+  <KEY id="6" link="Keyboard.Press(Right)"/>
+ </WINLIRC>
+ <Mouse Wheel="0" MiddleButton="0" RightButton="1" LeftButton="1"/>
+ <Audio Volume="50" Mute="0" UseMixer="0"/>
+ <Seek KeyFrameSeek="1" KeyJump="60" KeySeek="10"/>
+ <WIntegrator AudioFiles="AIF,AIFC,AIFF,AC3,AU,KAR,MID,MIDI,MKA,RMI,MP1,MP2,MP3,MPA,OGG,RA,RAM,SND,WAV,WMA" PlayListFiles="ASX,IFO,LAP,LST,M3U,PLS" VideoFiles="ASF,AVI,DAT,DIVX,ENC,M1V,M2V,MKV,MOV,MPE,MPEG,MPG,MPV,OGM,QT,RM,RV,VOB,WM,WMV"/>
+ <Keyboard>
+  <WINDOW id="System">
+   <KEY id="Ctrl+Alt+Space" link="Application.OpenPlayPause"/>
+   <KEY id="Ctrl+Alt+Home" link="GUI.Restore"/>
+   <KEY id="Ctrl+Alt+End" link="GUI.Minimize"/>
+   <KEY id="Ctrl+Alt+Up" link="Audio.VolumeUp"/>
+   <KEY id="Ctrl+Alt+Down" link="Audio.VolumeDown"/>
+   <KEY id="Ctrl+Alt+M" link="Audio.Mute"/>
+   <KEY id="Ctrl+Alt+Left" link="Player.SeekTo(-Step)"/>
+   <KEY id="Ctrl+Alt+Right" link="Player.SeekTo(+Step)"/>
+   <KEY id="Ctrl+Alt+PageUp" link="PlayList.Load(Prev)"/>
+   <KEY id="Ctrl+Alt+PageDown" link="PlayList.Load(Next)"/>
+  </WINDOW>
+  <WINDOW id="*">
+   <KEY id="Esc" link="GUI.HideWindow"/>
+  </WINDOW>
+  <WINDOW id="Main">
+   <KEY id="Esc" link="Application.Exit"/>
+   <KEY id="F10" link="GUI.ShowWindow(Preferences)"/>
+   <KEY id="F1" link="Application.Help"/>
+   <KEY id="Ctrl+F1" link="GUI.ShowWindow(About)"/>
+   <KEY id="End" link="GUI.Minimize"/>
+   <KEY id="A" link="GUI.StayOnTop"/>
+   <KEY id="F11" link="Application.SelectSkin"/>
+   <KEY id="Ctrl+F11" link="Application.ReloadSkin"/>
+   <KEY id="Alt+F11" link="Application.NextSkin"/>
+   <KEY id="Space" link="Application.OpenPlayPause"/>
+   <KEY id="Up" link="Audio.VolumeUp"/>
+   <KEY id="Down" link="Audio.VolumeDown"/>
+   <KEY id="M" link="Audio.Mute"/>
+   <KEY id="/" link="Audio.NextTrack"/>
+   <KEY id="F9" link="GUI.ShowWindow(Filters)"/>
+   <KEY id="I" link="GUI.ShowWindow(Info)"/>
+   <KEY id="NP1" link="Application.Menu"/>
+   <KEY id="NP2" link="Application.MenuOSD"/>
+   <KEY id="NP3" link="DVD.TitleMenu"/>
+   <KEY id="NP8" link="Menu.Up"/>
+   <KEY id="NP4" link="Menu.Left"/>
+   <KEY id="NP6" link="Menu.Right"/>
+   <KEY id="NP5" link="Menu.Down"/>
+   <KEY id="NP0" link="Menu.Select"/>
+   <KEY id="F12" link="Video.ScreenShot"/>
+   <KEY id="Enter" link="Video.FullScreen"/>
+   <KEY id="Home" link="Video.Original"/>
+   <KEY id="Alt+1" link="Video.Scale(50)"/>
+   <KEY id="Alt+2" link="Video.Scale(100)"/>
+   <KEY id="Alt+3" link="Video.Scale(200)"/>
+   <KEY id="Shift+1" link="Video.AspectRatio(AsIs)"/>
+   <KEY id="Shift+2" link="Video.AspectRatio(4:3)"/>
+   <KEY id="Shift+3" link="Video.AspectRatio(16:9)"/>
+   <KEY id="Shift+4" link="Video.AspectRatio(47:20)"/>
+   <KEY id="Shift+9" link="Video.AspectRatio(Free)"/>
+   <KEY id="NP+" link="Video.BrightnessUp"/>
+   <KEY id="NP-" link="Video.BrightnessDown"/>
+   <KEY id="Ctrl+NP+" link="Video.ContrastUp"/>
+   <KEY id="Ctrl+NP-" link="Video.ContrastDown"/>
+   <KEY id="Alt+NP+" link="Video.SaturationUp"/>
+   <KEY id="Alt+NP-" link="Video.SaturationDown"/>
+   <KEY id="=" link="Video.ZoomInc"/>
+   <KEY id="-" link="Video.ZoomDec"/>
+   <KEY id="Shift+=" link="Video.StretchX"/>
+   <KEY id="Shift+-" link="Video.SqueezeX"/>
+   <KEY id="Ctrl+Left" link="Player.SeekTo(-Frame)"/>
+   <KEY id="Ctrl+Right" link="Player.SeekTo(+Frame)"/>
+   <KEY id="Left" link="Player.SeekTo(-Step)"/>
+   <KEY id="Right" link="Player.SeekTo(+Step)"/>
+   <KEY id="Shift+Left" link="Player.SeekTo(-Jump)"/>
+   <KEY id="Shift+Right" link="Player.SeekTo(+Jump)"/>
+   <KEY id="BackSpace" link="Player.SeekTo(0)"/>
+   <KEY id="F5" link="Window.Show(MediaSettings)"/>
+   <KEY id="Ctrl+Up" link="Playlist.Move(Up)"/>
+   <KEY id="Ctrl+Down" link="Playlist.Move(Down)"/>
+   <KEY id="F2" link="Playlist.SaveAs"/>
+   <KEY id="Insert" link="Playlist.Add(Files)"/>
+   <KEY id="Shift+Insert" link="PlayList.Add(Dir)"/>
+   <KEY id="Delete" link="Playlist.Remove(Selected)"/>
+   <KEY id="Shift+Delete" link="Playlist.Remove(All)"/>
+   <KEY id="P" link="GUI.ToggleControl(PLPanel)"/>
+   <KEY id="F4" link="Window.Show(PlayList)"/>
+   <KEY id="R" link="Playlist.Repeat"/>
+   <KEY id="B" link="Playlist.SetBookmark"/>
+   <KEY id="PageUp" link="PlayList.Load(Prev)"/>
+   <KEY id="PageDown" link="PlayList.Load(Next)"/>
+   <KEY id="\" link="Playlist.Bookmarks"/>
+   <KEY id="Ctrl+S" link="Playlist.Sort(ByTitle)"/>
+   <KEY id="Alt+S" link="Playlist.Sort(Shuffle)"/>
+   <KEY id="Ctrl+R" link="PlayList.Report"/>
+   <KEY id="F3" link="PlayList.OpenFiles"/>
+   <KEY id="L" link="PlayList.OpenFiles"/>
+  </WINDOW>
+ </Keyboard>
+ <Subtitles Charset="1"/>
+ <WinAMP Emulate=""/>
+ <Video KeyFrameSeek=""/>
+ <Player LastPos="1643"/>
+</APPLICATION>

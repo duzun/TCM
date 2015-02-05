@@ -1,0 +1,30 @@
+# Generic temp files
+.DS_store
+Desktop.ini
+.dropbox
+.dropbox.attr
+## - Thumbnail cache files
+._*
+Thumbs.db
+## - Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+## - Node.js
+*node_modules*
+npm-debug.log
+*.log
+### Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+## - Runtime data
+pids
+*.pid
+*.seed
+## - Others
+lib-cov
+coverage
+.grunt
+.lock-wscript
+
+# Project specific
+wincmd.key
+*.br2

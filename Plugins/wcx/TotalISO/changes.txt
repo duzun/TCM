@@ -1,0 +1,17 @@
+v1.0.0.155, 26 April 2012
+* Added: Configuration dialog
+* Added: New tool configuration dialog.
+* Added: Upgraded to the latest WCX interface v2.1
+* Added: Support of x64
+
+v0.9.0.55
+* Added: Version resource to TotalISO.wcx
+* Added: Check for the existence of the selected tool (eg. mkisofs.exe or cdimage.exe). 
+  If the tool is not found, a warning message will be displayed to remind the user.
+* Added: Support for the configuration of language files. Now users can add their own 
+  language files, and mofify totaliso.xml file accordingly to make use of the files. GUI 
+  for the configuration is still under development.
+
+
+v0.9
+First release to the public.

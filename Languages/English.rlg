@@ -1,0 +1,267 @@
+*RegCleaner LanguagePack*
+*RG Version : 4.3*
+
+// Lines starting with '//' are comments, they can be
+// changed and they don't do anything.
+// You can't however change anything that starts with *.
+// - marks are optional and they don't do anything.
+//
+// Please send me the translation you have done to jv16@vtoy.fi
+// And please, do not compress it with any program (like WinZip), just
+// send it as attachment the way it is. That way I can add it to the official
+// package with a one click. Also, do not translate any other file, like
+// the readme, I can´t distribute them.
+// (You don´t need to translate these instructional lines)
+
+*Language* //The name of the language in english
+English
+
+*LangPack Author* //Write your name to the next line
+Jouni Vuorio
+
+*The File menu*
+File
+-Save list as txt
+-Exit
+
+*The Select menu*
+Select
+-All
+-None
+-Inverse
+-Mark selected
+-Highlight marked lines
+
+*The Options menu*
+Options
+-Preferences
+--Colors
+---Change
+---Default
+--Columns
+---Automatically Resize
+---Manually Resize
+--Marking as old
+---Automatic
+---Manual
+--GUI
+---Grid
+---Flat Scroll bars
+---Command Panel
+-Registry Cleanup
+--Method
+---Automatic
+---Manual
+--Backups
+---Don´t create any backups
+---Create only one backup file
+--OLE Cleaner
+---Normal
+---Extra Powerful
+--Show statistics
+--Ignore List...
+-Uninstall Menu
+--Show all software
+--Show only hidden software
+--Don't show hidden software
+-Language
+--Select Language
+--Edit the current language file
+-RegCleaner
+--Install Shortcuts
+--Uninstall RegCleaner
+
+*The Tools Menu*
+Tools
+-OCX Tools
+--View OCX entries
+--Convert ProgID to CLSID
+--Convert CLSID to ProgID
+-Registry Cleanup
+--OLE Cleaner
+--Orphan file reference finder
+--Automatic Registry cleaner
+--Do them All
+-View system DLL files
+-View DLL files...
+-View Shared DLL files
+-Rebuild the registry
+-Reset hardware configuration
+-Modify the Search menu
+-Modify the Open With menu
+-Run Regedit
+
+*The Search feature*
+Search
+Enter text to find
+Highlight found items
+Mark found items
+
+*The Help menu*
+Help
+-Readme
+-Visit RegCleaner´s homepage
+-About RegCleaner
+
+*Main Buttons*
+Mark as old
+Restore Backup
+Uninstall
+Remove Selected
+Exit
+View with Notepad
+Combine
+Rename
+New
+
+*Main Tabs*
+Software
+Startup List
+Uninstall Menu
+File Types
+New File
+Shell Extensions
+Backups
+
+*Tab Captions* //Important: None of these captions can be identical!
+Software registered to the Registry. You should delete every program's entries you know you've had, but don't have anymore
+These programs are run everytime you start your computer. Try to keep this list as short as possible
+Software in Windows' Uninstall Menu. You can uninstall them or just remove them from this list
+File Types registered to the Registry. Entries with 'N/A' should be safe to delete
+Ability to create new files with right-click. You can delete all the entries you don't need
+Shell Extensions of different kinds of file types. You can delete all of the file types that you don't need
+Shared DLLs and other shared files that should be safe to delete (Both the files and the entries will be deleted)
+DLL system files found. You can delete all the DLLs that you know are obsolete
+Current Backups
+OCX entries found
+ProgID -> CLSID conversion
+CLSID -> ProgID conversion
+These items are in Start Button > Search menu, you can remove everyone you don´t need
+Windows suggest these programs if you try to open a file of unknown filetype
+
+*Misc*
+Working, Please wait...
+Creating list, Please wait...
+Unknown
+RegCleaner Language packs
+Registry
+N/A
+Start Menu
+All Files
+Directory
+Homepage:
+Text files
+selected    //These two lines are united, Eg: Selected 23 of 90
+of
+Advanced info
+If you choose to remove this item these keys would be removed
+If you choose to remove this item this key would be removed
+You have chosen to delete every single item. Are you absolutely sure you know what you are doing?
+Enter CLSID
+Enter ProgID
+CLSID
+ProgID
+Copy to Clipboard
+Start Menu (Common User)
+Rebuilding the registry
+Enter a password required to start RegCleaner
+Please enter your password
+
+*Wizzard*
+Create a new registry entry
+Modify a registry entry
+Next
+Finish
+Cancel
+
+// Be sure to include the : marks.
+// Notice: The First line ("These entries...") cannot contain a comma (,)!
+*The Registry Cleanup* 
+These entries are found to be useless and they should be safe to remove
+Values analyzed:
+Keys analyzed:
+Invalid entries:
+Ignored entries:
+Threads:
+Cleaning the Registry
+Analyzing the Registry
+Done
+Root
+Key
+Entry's name
+Value
+Registry Cleanup completed
+Pause
+Resume
+Abort
+Close
+
+*Columns*
+Author
+Software
+Age
+Program
+Filename
+Loaded from
+Software
+Extension
+Description
+Extension
+Description
+Extension
+Command
+Program
+Filename
+Path
+Type of Backup
+Description
+Date
+Time
+Last modified
+Last Accessed
+Search...
+
+*Age*
+Old
+New
+
+*Backups*
+Backup Restored
+Backups Restored
+Shared DLL
+ShellExtension
+Automatic cleanup entry
+Manual cleanup entry
+Newfile
+FileType
+Uninstall menu item
+Startup menu item
+Registry entry
+Automatic cleanup entries
+Manual cleanup entries
+Enter a new name for the backup
+DLL file
+You can´t combine 
+Combined backups
+OCX Registry entries
+Search menu item
+Open With menu item
+
+*Ignore List* //The last 5 lines are in a one box. The message must be 5 lines long.
+Ignore list in Registry Cleanup
+What does this list mean?
+Cancel
+OK
+If you notice that after Registry Cleanup you lose
+some program's options or something, try to add the program's
+name to this list And RegCleaner will ignore that program's entries.
+I would be very happy if you could inform me about such programs.
+The list is not Case Sensitive.
+
+*Error Messages*
+Error! Procedure aborted
+Sorry, this feature is only for Win9x, not for any NT based OS
+Sorry, this feature is only for Windows 2000
+Please, restart your computer
+This feature will reset windows' hardware configuration. Are you really sure you want to do this?
+Access Denied, wrong password

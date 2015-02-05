@@ -1,0 +1,31 @@
+
+
+silent=1
+overwrite=2
+path=%windir%
+;          , Target         , Dir      , Description                           , Name 
+Shortcut=P , "wa.exe"       , "UD3Pack", ""                                    , "Winamp.lnk"
+Shortcut=P , "TPlayer.exe"  , "UD3Pack", ""                                    , "TPlayer!.lnk"
+Shortcut=P , "tcm.exe"      , "UD3Pack", "Total Commander Launcher (by DUzun)" , "Total Commander (DUzunSys)"
+Shortcut=P , "rebooter.exe" , "UD3Pack", "Reboot of the Computer"              , "ReBooter!.lnk"
+Shortcut=P , "RegCln.exe"   , "UD3Pack", "Registry Cleaner"                    , "RegCln!.lnk"
+Shortcut=P , "MetaPad.exe"  , "UD3Pack", "Super Notepad"                       , "MetaPad!.lnk"
+Shortcut=P , "ISOcmd.exe"   , "UD3Pack", "ISO Commander"                       , "ISOCommander.LNK"
+Shortcut=P , "Hacker.exe"   , "UD3Pack", "Resource Hacker"                     , "Hacker!.lnk"
+Shortcut=P , "vc.com"       , "UD3Pack", "Volkov Commander"                    , "VolkovCMD.lnk"
+Shortcut=P , "AUTORUNS.EXE" , "UD3Pack", "AutoRuns Control"                    , "AutoRuns!.lnk"
+Shortcut=P , "IBProcMan.exe", "UD3Pack", "Itty Bitty Process Manager - v1.04.0", "IBProcMan!.lnk"
+Shortcut=P , "KillBox.exe"  , "UD3Pack", "PocketKillbox"                       , "KillBox!.lnk"
+Shortcut=P , "STARTUPC.EXE" , "UD3Pack", "StartUp Control"                     , "StartUpC!.lnk"
+Shortcut=P , "PAGEDFRG.EXE" , "UD3Pack", "System File Defragmenter v2.32"      , "PageDfrg!.lnk"
+Shortcut=P , "CHARMAP.EXE"  , "UD3Pack", ""                                    , "CharMap!.lnk"
+Shortcut=P , "FreeMem.exe"  , "UD3Pack", "Frees RAM Memory"                    , "FreeMem!.lnk"
+Shortcut=P , "Iexplore.exe" , "UD3Pack", "Internet Explorer"                   , "IExplore.exe!.lnk"
+Shortcut=P , "LnkEdt.exe"   , "UD3Pack", "Link Editor"                         , "LnkEdt!.lnk"
+Shortcut=P , "Volume.exe"   , "UD3Pack", "Mouse Wheel Volume Control"          , "Volume!.lnk"
+Shortcut=P , "DTemp.exe"    , "UD3Pack", "HardDisk Temperature"                , "DTemp!.lnk"
+Shortcut=P , "InterNat.exe" , "UD3Pack", "Keyboard language support"           , "Internat!.lnk"
+Shortcut=S , "tcm.exe"      , ""       , ""                                    , "Total Commander.lnk"
+Shortcut=P , "UD3uninst.exe", "UD3Pack", "Uninstall UD3Pack"                   , "Uninstall.UD3.lnk"
+Shortcut=P , "BACK2LIFE.EXE", "UD3Pack", "Recovers Deleted Files"              , "Back2Lile!.lnk"
+;Shortcut=P, ""             , "UD3Pack", ""                                    , ".lnk"

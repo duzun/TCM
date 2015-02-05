@@ -1,0 +1,675 @@
+<?xml version="1.0" ?>
+<!-- Command line options of mkisofs -->
+<!-- Is there a space between option switch and argument, for cdimage, no -->
+<Arg-need-space>yes</Arg-need-space>
+<!-- Options -->
+<Option name="-nobak">
+    <!-- Description is used as the help text for the option -->
+    <Description>Do not include backup files</Description>
+    <!-- Indicates whether the option needs an argument or not -->
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-bak">
+    <Description>Do not include backup files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-abstract">
+    <Description>Set Abstract filename</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-A">
+    <Description>Set Application ID</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-biblio">
+    <Description>Set Bibliographic filename</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-cache-inodes">
+    <Description>Cache inodes (needed to detect hard links)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-cache-inodes">
+    <Description>Do not cache inodes (if filesystem has no unique unides)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-check-oldnames">
+    <Description>Check all imported ISO9660 names from old session</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-check-session">
+    <Description>Check all ISO9660 names from previous session</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-copyright">
+    <Description>Set Copyright filename</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-debug">
+    <Description>Set debug flag</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-b">
+    <Description>Set El Torito boot image name</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-eltorito-alt-boot">
+    <Description>Start specifying alternative El Torito boot parameters</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-B">
+    <Description>Set sparc boot image names</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-G">
+    <Description>Set generic boot image name</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-sparc-label">
+    <Description>Set sparc boot disk label</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-c">
+    <Description>Set El Torito boot catalog name</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-C">
+    <Description>Magic paramters from cdrecord</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-d">
+    <Description>Omit trailing periods from filenames (violates ISO9660)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-dir-mode">
+    <Description>Make the mode of all directories this mode.</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-D">
+    <Description>Disable deep directory relocation (violates ISO9660)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-file-mode">
+    <Description>Make the mode of all plain files this mode.</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-f">
+    <Description>Follow symbolic links</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-gid">
+    <Description>Make the group owner of all files this gid.</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-graft-points">
+    <Description>Allow to use graft points for filenames</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-help">
+    <Description>Print option help</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-hide">
+    <Description>Hide ISO9660/RR file</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-hide-list">
+    <Description>File with list of ISO9660/RR files to hide</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-hidden">
+    <Description>Set hidden attribute on ISO9660 file</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-hidden-list">
+    <Description>File with list of ISO9660 files with hidden attribute</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-hide-joliet">
+    <Description>Hide Joliet file</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-hide-joliet-list">
+    <Description>File with list of Joliet files to hide</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-hide-joliet-trans-tbl">
+    <Description>Hide TRANS.TBL from Joliet tree</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-hide-rr-moved">
+    <Description>Rename RR_MOVED to .rr_moved in Rock Ridge tree</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-input-charset">
+    <Description>Local input charset for file name conversion</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-output-charset">
+    <Description>Output charset for file name conversion</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-iso-level">
+    <Description>Set ISO9660 conformance level (1..3) or 4 for ISO9660 version 2</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-J">
+    <Description>Generate Joliet directory information</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-joliet-long">
+    <Description>Allow Joliet file names to be 103 Unicode characters</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-jcharset">
+    <Description>Local charset for Joliet directory information</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-l">
+    <Description>Allow full 31 character filenames for ISO9660 names</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-max-iso9660-filenames">
+    <Description>Allow 37 character filenames for ISO9660 names (violates ISO9660)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-L">
+    <Description>Allow ISO9660 filenames to start with &apos;.&apos; (violates ISO9660)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-log-file">
+    <Description>Re-direct messages to LOG_FILE</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-m">
+    <Description>Exclude file name</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-exclude-list">
+    <Description>File with list of file names to exclude</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-pad">
+    <Description>Pad output to a multiple of 32k (default)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-pad">
+    <Description>Do not pad output to a multiple of 32k</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-M">
+    <Description>Set path to previous session to merge</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-N">
+    <Description>Omit version number from ISO9660 filename (violates ISO9660)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-new-dir-mode">
+    <Description>Mode used when creating new directories</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-force-rr">
+    <Description>Inhibit automatic Rock Ridge detection for previous session</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-rr">
+    <Description>Inhibit reading of Rock Ridge attributes from previous session</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-split-symlink-components">
+    <Description>Inhibit splitting symlink components</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-split-symlink-fields">
+    <Description>Inhibit splitting symlink fields</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-path-list">
+    <Description>File with list of pathnames to process</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-p">
+    <Description>Set Volume preparer</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-print-size">
+    <Description>Print estimated filesystem size and exit</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-P">
+    <Description>Set Volume publisher</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-quiet">
+    <Description>Run quietly</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-r">
+    <Description>Alternative option: -rational-rock. Generate rationalized Rock Ridge directory information</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-R">
+    <Description>Alternative option: -rock. Generate Rock Ridge directory information</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-s">
+    <Description>Alternative option: -sectype. Set output sector type to e.g. data/xa1/raw</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-sort">
+    <Description>Sort file content locations according to rules in FILE</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-split-output">
+    <Description>Split output into files of approx. 1GB size</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-stream-file-name">
+    <Description>Set the stream file ISO9660 name (incl. version)</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-stream-media-size">
+    <Description>Set the size of your CD media in sectors</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-sysid">
+    <Description>Set System ID</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-T">
+    <Description>Alternative option: -translation-table. Generate translation tables for systems that don&apos;t understand long filenames</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-table-name">
+    <Description>Translation table file name</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-ucs-level">
+    <Description>Set Joliet UCS level (1..3)</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-udf">
+    <Description>Generate UDF file system</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-dvd-video">
+    <Description>Generate DVD-Video compliant UDF file system</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-uid">
+    <Description>Make the owner of all files this uid</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-U">
+    <Description>Alternative option: -untranslated-filenames. Allow Untranslated filenames (for HPUX  AIX - violates ISO9660). Forces -l, -d, -L, -N, -relaxed-filenames, -allow-lowercase, -allow-multidot</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-relaxed-filenames">
+    <Description>Allow 7 bit ASCII except lower case characters (violates ISO9660)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-iso-translate">
+    <Description>Do not translate illegal ISO characters &apos;~&apos;, &apos;-&apos; and &apos;#&apos; (violates ISO9660)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-allow-lowercase">
+    <Description>Allow lower case characters in addition to the current character set (violates ISO9660)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-allow-multidot">
+    <Description>Allow more than one dot in filenames (e.g. .tar.gz) (violates ISO9660)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-use-fileversion">
+    <Description>Use file version # from filesystem</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-v">
+    <Description>Alternative option: -verbose. Verbose</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-version">
+    <Description>Print the current version</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-V">
+    <Description>Alternative option: -volid. Set Volume ID</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-volset">
+    <Description>Set Volume set ID</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-volset-size">
+    <Description>Set Volume set size</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-volset-seqno">
+    <Description>Set Volume set sequence number</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-x">
+    <Description>Alternative option: -old-exclude. Exclude file name(depreciated)</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-hard-disk-boot">
+    <Description>Boot image is a hard disk image</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-emul-boot">
+    <Description>Boot image is &apos;no emulation&apos; image</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-boot">
+    <Description>Boot image is not bootable</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-boot-load-seg">
+    <Description>Set load segment for boot image</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-boot-load-size">
+    <Description>Set numbers of load sectors</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-boot-info-table">
+    <Description>Patch boot image with info table</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-XA">
+    <Description>Generate XA directory attruibutes</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-xa">
+    <Description>Generate rationalized XA directory attruibutes</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-z">
+    <Description>Alternative option: -transparent-compression. Enable transparent compression of files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-hfs-type">
+    <Description>Set HFS default TYPE</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-hfs-creator">
+    <Description>Set HFS default CREATOR</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-g">
+    <Description>Alternative option: -apple. Add Apple ISO9660 extensions</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-h">
+    <Description>Alternative option: -hfs. Create ISO9660/HFS hybrid</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-H">
+    <Description>Alternative option: -map MAPPING. Map file extensions to HFS TYPE/CREATOR</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-magic">
+    <Description>Magic file for HFS TYPE/CREATOR</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-probe">
+    <Description>Probe all files for Apple/Unix file types</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-mac-name">
+    <Description>Use Macintosh name for ISO9660/Joliet/RockRidge file name</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-no-mac-files">
+    <Description>Do not look for Unix/Mac files (depreciated)</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-boot-hfs-file">
+    <Description>Set HFS boot image name</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-part">
+    <Description>Generate HFS partition table</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-cluster-size">
+    <Description>Cluster size for PC Exchange Macintosh files</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-auto">
+    <Description>Set HFS AutoStart file name</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-no-desktop">
+    <Description>Do not create the HFS (empty) Desktop files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-hide-hfs">
+    <Description>Hide HFS file</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-hide-hfs-list">
+    <Description>List of HFS files to hide</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-hfs-volid">
+    <Description>Volume name for the HFS partition</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-icon-position">
+    <Description>Keep HFS icon position</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-root-info">
+    <Description>Finderinfo for root folder</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="-input-hfs-charset">
+    <Description>Local input charset for HFS file name conversion</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-output-hfs-charset">
+    <Description>Output charset for HFS file name conversion</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-hfs-unlock">
+    <Description>Leave HFS Volume unlocked</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="-hfs-bless">
+    <Description>Name of Folder to be blessed</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>directory</Arg-type>
+</Option>
+<Option name="-hfs-parms">
+    <Description>Comma separated list of HFS parameters</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>text</Arg-type>
+</Option>
+<Option name="-prep-boot">
+    <Description>PReP boot image file -- up to 4 are allowed</Description>
+    <Need-argument>yes</Need-argument>
+    <!-- Argument can be "text" or "file". If argument type is "file", there would be a button to browse for file -->
+    <Arg-type>file</Arg-type>
+</Option>
+<Option name="--cap">
+    <Description>Look for AUFS CAP Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--netatalk">
+    <Description>Look for NETATALK Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--double">
+    <Description>Look for AppleDouble Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--ethershare">
+    <Description>Look for Helios EtherShare Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--exchange">
+    <Description>Look for PC Exchange Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--sgi">
+    <Description>Look for SGI Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--macbin">
+    <Description>Look for MacBinary Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--single">
+    <Description>Look for AppleSingle Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--ushare">
+    <Description>Look for IPT UShare Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--xinet">
+    <Description>Look for XINET Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--dave">
+    <Description>Look for DAVE Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--sfm">
+    <Description>Look for SFM Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--osx-double">
+    <Description>Look for MacOS X AppleDouble Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>
+<Option name="--osx-hfs">
+    <Description>Look for MacOS X HFS Macintosh files</Description>
+    <Need-argument>no</Need-argument>
+</Option>

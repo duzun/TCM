@@ -1,0 +1,11 @@
+[main]
+Play=16464
+Stop=16467
+Pause=24659
+VolumeUp=121
+VolumeDown=120
+Mute=119
+NextTrack=16454
+PrevTrack=16450
+NextFile=24646
+PlayList=24642
