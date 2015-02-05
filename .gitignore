@@ -27,4 +27,5 @@ coverage
 
 # Project specific
 wincmd.key
+RarReg.key
 *.br2
