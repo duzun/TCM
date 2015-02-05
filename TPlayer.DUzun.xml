@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <APPLICATION ShowHints="1" MultiInstance="0" StayOnTop="0" UseTray="0" Language="Russian" Skin="" id="Total Media Player" ver="3.0 Beta 41 (build 3739)">
  <OSD ShowInfo="1"/>
- <PlayList MediaDir="" ReportDir="C:\" Index="0"/>
+ <PlayList MediaDir="" ReportDir="C:\" Index="-1"/>
  <WINLIRC Enabled="0" Server="127.0.0.1:8765" AutoLoad="0" RepeatDelay="0">
   <KEY id="tv/av" link="Application.OpenPlayPause"/>
   <KEY id="Power" link="Application.Exit"/>

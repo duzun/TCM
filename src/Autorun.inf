@@ -1,0 +1,6 @@
+[Autorun]
+Open=TCM.exe
+Icon=TCM\QDrive.ico
+Label=DUzun's DATA
+Shell\_TCM = Total Commander
+Shell\_TCM\command = TCM
