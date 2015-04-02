@@ -1,0 +1,13 @@
+﻿;!@Lang@!UTF-8!
+; Total7zip 0.8.0.5
+; Translated by Total7zip
+
+
+02000207="Unpacked Size"
+02000298="Password"
+
+02000B30="Save password"
+
+03020900="Properties"
+
+;!@LangEnd@!
