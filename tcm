@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd ~/TCM
+wine ~/TCM/tcm.exe $@ &
+cd -
+
