@@ -1,7 +1,8 @@
 # Enforce LF line endings (notepad++ can handle it)
-* text eol=crlf
+* text=auto
 
 # Text file extensions
+tcm text eol=lf
 *.js   text  eol=crlf
 *.json text  eol=crlf
 *.inf  text  eol=crlf
@@ -65,4 +66,3 @@
 *.wlx64 binary
 
 *.avsz binary
-
